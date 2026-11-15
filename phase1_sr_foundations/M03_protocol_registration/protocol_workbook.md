@@ -107,6 +107,6 @@
 | تحلیل حساسیت | Sensitivity analysis |
 | قطعیت شواهد | Certainty of evidence |
 
-[صفحهٔ پیشین: فیلم‌ها](videos.md) · [فهرست ماژول](README.md) · [صفحهٔ پسین: تمرین](exercises.md)
+[صفحهٔ پیشین: فیلم‌ها](lesson.md#video-resources) · [فهرست ماژول](README.md) · [صفحهٔ پسین: تمرین](exercises.md)
 
 </div>

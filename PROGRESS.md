@@ -25,3 +25,10 @@
 - Confirmed scope: all four core areas taught fully over time; self-study; undergraduate through specialist audience; Iran and international burden examples.
 - Existing M01–M02 still need revision to the new style. Other modules and software tutorials remain unfinished.
 - GitHub target: https://github.com/raminabiri/Advanced_research_Methodology ; Streamlit dashboard deferred.
+
+## Tool workshops and resource migration (2026-11-15)
+- Added 21 real-paper tool examples across 12 workshops, each with a filled selected-row teaching table, exercise and explained answer. These are not complete official assessments or final ratings.
+- Added tool map and machine-readable coverage/source metadata for future Streamlit integration. Core unwritten lessons remain unwritten.
+- Clarified QUADAS-3, draft status of ROBINS-I V2, PRESS/PRISMA-S, SWiM and PRISMA-ScR placement.
+- Added complementary scoping/qualitative pathway deliverables to the syllabus.
+- Deleted 8 separate references/videos files (including template files) after migrating existing content into lesson endings; updated navigation and templates.

@@ -2,4 +2,10 @@
 
 **وضعیت:** نوشته نشده
 
-فایل‌های این ماژول طبق الگوی [module_template](../../00_admin/module_template/) ساخته می‌شوند: `lesson.md`، `references.md`، `videos.md`، `exercises.md`، `solutions.md` و در صورت نیاز `code/`.
+فایل‌های این ماژول طبق الگوی [module_template](../../00_admin/module_template/) ساخته می‌شوند: `lesson.md` با منابع و فیلم‌ها در پایان آن، `exercises.md`، `solutions.md` و در صورت نیاز `code/`.
+
+## کارگاه آمادهٔ ابزارها
+
+[آموزش و جدول‌های حل‌شده](tool_workshop.md) · [تمرین با مقالهٔ واقعی](tool_exercises.md) · [پاسخ تشریحی](tool_solutions.md)
+
+درس اصلی و کارگاه ابزار دو وضعیت جدا دارند؛ آماده شدن کارگاه به معنای تکمیل همهٔ درس نیست.

@@ -1,0 +1,212 @@
+[
+  {
+    "tool": "PRISMA-P",
+    "stage": "۲",
+    "module": "phase1_sr_foundations/M03_protocol_registration",
+    "lesson": "phase1_sr_foundations/M03_protocol_registration/tool_workshop.md",
+    "exercise": "phase1_sr_foundations/M03_protocol_registration/tool_exercises.md",
+    "solution": "phase1_sr_foundations/M03_protocol_registration/tool_solutions.md",
+    "article_doi": "10.1371/journal.pone.0297348",
+    "example_scope": "selected educational rows; not a complete official appraisal"
+  },
+  {
+    "tool": "PROSPERO",
+    "stage": "۲",
+    "module": "phase1_sr_foundations/M03_protocol_registration",
+    "lesson": "phase1_sr_foundations/M03_protocol_registration/tool_workshop.md",
+    "exercise": "phase1_sr_foundations/M03_protocol_registration/tool_exercises.md",
+    "solution": "phase1_sr_foundations/M03_protocol_registration/tool_solutions.md",
+    "article_doi": "10.1371/journal.pone.0297348",
+    "example_scope": "selected educational rows; not a complete official appraisal"
+  },
+  {
+    "tool": "OSF Registries",
+    "stage": "۲",
+    "module": "phase1_sr_foundations/M03_protocol_registration",
+    "lesson": "phase1_sr_foundations/M03_protocol_registration/tool_workshop.md",
+    "exercise": "phase1_sr_foundations/M03_protocol_registration/tool_exercises.md",
+    "solution": "phase1_sr_foundations/M03_protocol_registration/tool_solutions.md",
+    "article_doi": "10.2196/68910",
+    "example_scope": "selected educational rows; not a complete official appraisal"
+  },
+  {
+    "tool": "PRESS",
+    "stage": "۴",
+    "module": "phase1_sr_foundations/M04_systematic_search",
+    "lesson": "phase1_sr_foundations/M04_systematic_search/tool_workshop.md",
+    "exercise": "phase1_sr_foundations/M04_systematic_search/tool_exercises.md",
+    "solution": "phase1_sr_foundations/M04_systematic_search/tool_solutions.md",
+    "article_doi": "10.1136/bmj-2023-075847",
+    "example_scope": "selected educational rows; not a complete official appraisal"
+  },
+  {
+    "tool": "PRISMA-S",
+    "stage": "۴ و ۱۲",
+    "module": "phase1_sr_foundations/M04_systematic_search",
+    "lesson": "phase1_sr_foundations/M04_systematic_search/tool_workshop.md",
+    "exercise": "phase1_sr_foundations/M04_systematic_search/tool_exercises.md",
+    "solution": "phase1_sr_foundations/M04_systematic_search/tool_solutions.md",
+    "article_doi": "10.1136/bmj-2023-075847",
+    "example_scope": "selected educational rows; not a complete official appraisal"
+  },
+  {
+    "tool": "PRISMA flow diagram",
+    "stage": "۵ تا ۷ و ۱۲",
+    "module": "phase1_sr_foundations/M05_screening",
+    "lesson": "phase1_sr_foundations/M05_screening/tool_workshop.md",
+    "exercise": "phase1_sr_foundations/M05_screening/tool_exercises.md",
+    "solution": "phase1_sr_foundations/M05_screening/tool_solutions.md",
+    "article_doi": "10.1136/bmj-2023-075847",
+    "example_scope": "selected educational rows; not a complete official appraisal"
+  },
+  {
+    "tool": "RoB 2",
+    "stage": "۹",
+    "module": "phase1_sr_foundations/M07_risk_of_bias",
+    "lesson": "phase1_sr_foundations/M07_risk_of_bias/tool_workshop.md",
+    "exercise": "phase1_sr_foundations/M07_risk_of_bias/tool_exercises.md",
+    "solution": "phase1_sr_foundations/M07_risk_of_bias/tool_solutions.md",
+    "article_doi": "10.1056/NEJMoa2021436",
+    "example_scope": "selected educational rows; not a complete official appraisal"
+  },
+  {
+    "tool": "ROBINS-I V2",
+    "stage": "۹",
+    "module": "phase1_sr_foundations/M07_risk_of_bias",
+    "lesson": "phase1_sr_foundations/M07_risk_of_bias/tool_workshop.md",
+    "exercise": "phase1_sr_foundations/M07_risk_of_bias/tool_exercises.md",
+    "solution": "phase1_sr_foundations/M07_risk_of_bias/tool_solutions.md",
+    "article_doi": "10.1183/13993003.02532-2021",
+    "example_scope": "selected educational rows; not a complete official appraisal"
+  },
+  {
+    "tool": "ROBINS-E",
+    "stage": "۹",
+    "module": "phase1_sr_foundations/M07_risk_of_bias",
+    "lesson": "phase1_sr_foundations/M07_risk_of_bias/tool_workshop.md",
+    "exercise": "phase1_sr_foundations/M07_risk_of_bias/tool_exercises.md",
+    "solution": "phase1_sr_foundations/M07_risk_of_bias/tool_solutions.md",
+    "article_doi": "10.1136/bmj-2022-071204",
+    "example_scope": "selected educational rows; not a complete official appraisal"
+  },
+  {
+    "tool": "JBI prevalence",
+    "stage": "۹",
+    "module": "phase1_sr_foundations/M07_risk_of_bias",
+    "lesson": "phase1_sr_foundations/M07_risk_of_bias/tool_workshop.md",
+    "exercise": "phase1_sr_foundations/M07_risk_of_bias/tool_exercises.md",
+    "solution": "phase1_sr_foundations/M07_risk_of_bias/tool_solutions.md",
+    "article_doi": "10.1016/S0140-6736(20)31483-5",
+    "example_scope": "selected educational rows; not a complete official appraisal"
+  },
+  {
+    "tool": "QUADAS-3",
+    "stage": "۹",
+    "module": "phase1_sr_foundations/M07_risk_of_bias",
+    "lesson": "phase1_sr_foundations/M07_risk_of_bias/tool_workshop.md",
+    "exercise": "phase1_sr_foundations/M07_risk_of_bias/tool_exercises.md",
+    "solution": "phase1_sr_foundations/M07_risk_of_bias/tool_solutions.md",
+    "article_doi": "10.1136/bmj.n1676",
+    "example_scope": "selected educational rows; not a complete official appraisal"
+  },
+  {
+    "tool": "NOS",
+    "stage": "۹؛ مقایسهٔ ابزارها",
+    "module": "phase1_sr_foundations/M07_risk_of_bias",
+    "lesson": "phase1_sr_foundations/M07_risk_of_bias/tool_workshop.md",
+    "exercise": "phase1_sr_foundations/M07_risk_of_bias/tool_exercises.md",
+    "solution": "phase1_sr_foundations/M07_risk_of_bias/tool_solutions.md",
+    "article_doi": "10.1183/13993003.02532-2021",
+    "example_scope": "selected educational rows; not a complete official appraisal"
+  },
+  {
+    "tool": "PRISMA 2020",
+    "stage": "از طراحی تا ۱۲؛ تمرکز بر گزارش",
+    "module": "phase1_sr_foundations/M08_reporting_appraisal",
+    "lesson": "phase1_sr_foundations/M08_reporting_appraisal/tool_workshop.md",
+    "exercise": "phase1_sr_foundations/M08_reporting_appraisal/tool_exercises.md",
+    "solution": "phase1_sr_foundations/M08_reporting_appraisal/tool_solutions.md",
+    "article_doi": "10.1136/bmj-2023-075847",
+    "example_scope": "selected educational rows; not a complete official appraisal"
+  },
+  {
+    "tool": "SWiM",
+    "stage": "۱۰ و ۱۲",
+    "module": "phase2_meta_analysis_theory/M12_forest_subgroup_sensitivity",
+    "lesson": "phase2_meta_analysis_theory/M12_forest_subgroup_sensitivity/tool_workshop.md",
+    "exercise": "phase2_meta_analysis_theory/M12_forest_subgroup_sensitivity/tool_exercises.md",
+    "solution": "phase2_meta_analysis_theory/M12_forest_subgroup_sensitivity/tool_solutions.md",
+    "article_doi": "10.3389/fpubh.2026.1743075",
+    "example_scope": "selected educational rows; not a complete official appraisal"
+  },
+  {
+    "tool": "ROB-ME",
+    "stage": "۱۰",
+    "module": "phase2_meta_analysis_theory/M13_publication_bias",
+    "lesson": "phase2_meta_analysis_theory/M13_publication_bias/tool_workshop.md",
+    "exercise": "phase2_meta_analysis_theory/M13_publication_bias/tool_exercises.md",
+    "solution": "phase2_meta_analysis_theory/M13_publication_bias/tool_solutions.md",
+    "article_doi": "10.1136/bmj-2023-076754",
+    "example_scope": "selected educational rows; not a complete official appraisal"
+  },
+  {
+    "tool": "GRADE",
+    "stage": "طراحی در ۲؛ اجرا در ۱۱",
+    "module": "phase2_meta_analysis_theory/M17_grade_certainty",
+    "lesson": "phase2_meta_analysis_theory/M17_grade_certainty/tool_workshop.md",
+    "exercise": "phase2_meta_analysis_theory/M17_grade_certainty/tool_exercises.md",
+    "solution": "phase2_meta_analysis_theory/M17_grade_certainty/tool_solutions.md",
+    "article_doi": "10.1002/14651858.CD014963.pub2",
+    "example_scope": "selected educational rows; not a complete official appraisal"
+  },
+  {
+    "tool": "PRIOR",
+    "stage": "طراحی و گزارش آمبرلا",
+    "module": "phase5_umbrella_review/M18_rationale_prior",
+    "lesson": "phase5_umbrella_review/M18_rationale_prior/tool_workshop.md",
+    "exercise": "phase5_umbrella_review/M18_rationale_prior/tool_exercises.md",
+    "solution": "phase5_umbrella_review/M18_rationale_prior/tool_solutions.md",
+    "article_doi": "10.1136/bjsports-2022-106195",
+    "example_scope": "selected educational rows; not a complete official appraisal"
+  },
+  {
+    "tool": "AMSTAR 2",
+    "stage": "پس از انتخاب مرورها در آمبرلا",
+    "module": "phase5_umbrella_review/M20_amstar2_robis",
+    "lesson": "phase5_umbrella_review/M20_amstar2_robis/tool_workshop.md",
+    "exercise": "phase5_umbrella_review/M20_amstar2_robis/tool_exercises.md",
+    "solution": "phase5_umbrella_review/M20_amstar2_robis/tool_solutions.md",
+    "article_doi": "10.1002/14651858.CD006207.pub6",
+    "example_scope": "selected educational rows; not a complete official appraisal"
+  },
+  {
+    "tool": "ROBIS",
+    "stage": "پس از انتخاب مرورها در آمبرلا",
+    "module": "phase5_umbrella_review/M20_amstar2_robis",
+    "lesson": "phase5_umbrella_review/M20_amstar2_robis/tool_workshop.md",
+    "exercise": "phase5_umbrella_review/M20_amstar2_robis/tool_exercises.md",
+    "solution": "phase5_umbrella_review/M20_amstar2_robis/tool_solutions.md",
+    "article_doi": "10.1002/14651858.CD006207.pub6",
+    "example_scope": "selected educational rows; not a complete official appraisal"
+  },
+  {
+    "tool": "GATHER",
+    "stage": "طراحی و گزارش بار بیماری",
+    "module": "phase6_burden_of_disease/M28_national_subnational",
+    "lesson": "phase6_burden_of_disease/M28_national_subnational/tool_workshop.md",
+    "exercise": "phase6_burden_of_disease/M28_national_subnational/tool_exercises.md",
+    "solution": "phase6_burden_of_disease/M28_national_subnational/tool_solutions.md",
+    "article_doi": "10.1016/S0140-6736(20)30925-9",
+    "example_scope": "selected educational rows; not a complete official appraisal"
+  },
+  {
+    "tool": "PRISMA-ScR",
+    "stage": "طراحی و گزارش مرور حیطه‌ای",
+    "module": "phase1_sr_foundations/M01_review_types",
+    "lesson": "phase1_sr_foundations/M01_review_types/tool_workshop.md",
+    "exercise": "phase1_sr_foundations/M01_review_types/tool_exercises.md",
+    "solution": "phase1_sr_foundations/M01_review_types/tool_solutions.md",
+    "article_doi": "10.2196/68910",
+    "example_scope": "selected educational rows; not a complete official appraisal"
+  }
+]
