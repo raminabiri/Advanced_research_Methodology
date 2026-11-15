@@ -4,8 +4,8 @@
 
 | کد | عنوان | پوشه | وضعیت |
 |---|---|---|---|
-| P2-M09 | اندازه‌ی اثر و واریانس آن | [M09_effect_sizes](M09_effect_sizes/) | خالی |
-| P2-M10 | مدل اثر ثابت و اثرات تصادفی، برآوردگرهای τ²، هارتونگ–ناپ | [M10_fixed_random_models](M10_fixed_random_models/) | خالی |
+| P2-M09 | اندازه‌ی اثر و واریانس آن | [M09_effect_sizes](M09_effect_sizes/) | نوشته شده؛ همراه تمرین و پاسخ |
+| P2-M10 | مدل اثر ثابت و اثرات تصادفی، برآوردگرهای τ²، هارتونگ–ناپ | [M10_fixed_random_models](M10_fixed_random_models/) | نوشته شده؛ همراه تمرین و پاسخ |
 | P2-M11 | ناهمگنی: Q، I²، τ²، فاصله‌ی پیش‌بینی | [M11_heterogeneity](M11_heterogeneity/) | خالی |
 | P2-M12 | نمودار جنگلی، زیرگروه، تحلیل حساسیت | [M12_forest_subgroup_sensitivity](M12_forest_subgroup_sensitivity/) | خالی |
 | P2-M13 | سوگیری انتشار و شواهد گم‌شده، ROB-ME | [M13_publication_bias](M13_publication_bias/) | خالی |

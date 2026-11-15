@@ -13,3 +13,11 @@
 - Course is self-study, undergraduate through specialist in life/medical sciences. Burden examples cover Iran and other countries. M01–M02 need later style revision.
 
 - Current authorization: integrate missing tools at their proper modules, provide real-paper exercises with filled educational tables, and delete separate reference/video files after migrating their content to lesson endings. Tool workshop files may accompany unfinished core lessons. Do not present selected educational rows as complete official assessments.
+
+- User now explicitly authorizes completing every phase without stopping, improving explanatory depth, keeping real-paper exercises and solutions for every tool, and reporting completion of each phase. This supersedes the older one-module restriction. Continue publishing this course to the previously authorized GitHub repository.
+
+- Latest instruction supersedes automatic continuation: embed the seven online-tool modules and missing method modules locally, report additions, then STOP until the user asks to continue. Do not commit or push this update.
+
+- Current scope: user requested exactly two additional modules, M09 and M10, then a stop. Both are now written with central-track companions. Do not continue to M11 or commit/push unless the user later authorizes it.
+
+- Latest user instruction authorizes committing and pushing the pending course changes. Publish the written M09/M10 and their companions together with earlier pending foundation content and planned online-tool modules; do not resume writing additional modules.

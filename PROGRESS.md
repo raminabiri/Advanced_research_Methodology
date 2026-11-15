@@ -32,3 +32,23 @@
 - Clarified QUADAS-3, draft status of ROBINS-I V2, PRESS/PRISMA-S, SWiM and PRISMA-ScR placement.
 - Added complementary scoping/qualitative pathway deliverables to the syllabus.
 - Deleted 8 separate references/videos files (including template files) after migrating existing content into lesson endings; updated navigation and templates.
+
+## Local structure update — writing paused at user request
+- Embedded seven online-tool modules: Rayyan, Covidence, TERA, RevMan, Meta-Mar, MetaInsight, GRADEpro.
+- Added detailed plans for M39 MASEM and M40 power/precision planning.
+- Expanded M31 network and M34 Bayesian plans to cover a complete real-data workflow.
+- These are scaffolds and curricula, not completed lessons, exercises, official filled forms or executed online sessions.
+- Updated syllabus and navigation. User explicitly prohibits commit/push for this update and requests a stop after embedding, until they ask to continue.
+
+## Two-module local completion — M09 and M10
+- Completed the two requested modules: effect measures and fixed/random-effects models; expanded explanation, worked real BCG examples, standalone exercises and explained answers.
+- Added separate central CMA and R practical guides, exercises and answers for each module.
+- Executed both R scripts with R 4.6.1 and metafor 5.2.1; checked per-study logRR/variance against manual formulas and FE pooling/weight totals against definitions.
+- Stored real-data derived reference tables and environment information under data/phase2.
+- CMA guides are written; CMA GUI execution and video playback were not verified.
+- No commit or push. Stop after reporting these two modules; await further user direction.
+
+## Publication authorized
+- User requested commit and push of pending course work. This supersedes the earlier temporary publication prohibition.
+- Publication includes M09/M10 (phase 2), central CMA/R companions, prior local phase 0/1 lessons and the explicitly planned online/advanced module structure.
+- No further lesson writing is authorized by the publication-only request.
