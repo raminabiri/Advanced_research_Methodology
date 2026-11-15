@@ -17,6 +17,12 @@ assert not [p for p in r.rglob('*.md') if p.name in ['references.md','videos.md'
 for row in manifest:
  m=r/row['path']
  for name in ['README.md','lesson.md','exercises.md','solutions.md']:assert (m/name).is_file(),(m,name)
+ for page in ['README.md','lesson.md','tool_workshop.md']:
+  f=m/page
+  if f.exists():
+   body=f.read_text()
+   assert 'درس اصلیِ هنوز نانوشته' not in body,(f,'stale status')
+   assert 'آموزش محاسبات در این دو مسیر هنوز نوشته نشده' not in body,(f,'stale status')
  s=(m/'lesson.md').read_text()
  assert '## منابع نوشتاری' in s and '## فیلم' in s,m
  assert s.rfind('## منابع نوشتاری')<s.rfind('## فیلم'),m
