@@ -1,0 +1,63 @@
+[
+  {
+    "id": "Q01",
+    "query": "(exercise[tiab] OR \"physical activity\"[tiab]) AND depress*[tiab] AND (systematic review[pt] OR meta-analysis[pt] OR \"systematic review\"[tiab])",
+    "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28exercise%5Btiab%5D+OR+%22physical+activity%22%5Btiab%5D%29+AND+depress%2A%5Btiab%5D+AND+%28systematic+review%5Bpt%5D+OR+meta-analysis%5Bpt%5D+OR+%22systematic+review%22%5Btiab%5D%29&retmode=json&retmax=10&sort=pub_date",
+    "run_utc": "2026-11-15T17:04:22.485254+00:00",
+    "purpose": "limited feasibility exercise; NOT final systematic search",
+    "retmax": 10,
+    "response": {
+      "header": {
+        "type": "esearch",
+        "version": "0.3"
+      },
+      "esearchresult": {
+        "count": "2272",
+        "retmax": "10",
+        "retstart": "0",
+        "idlist": [
+          "42711194",
+          "42641961",
+          "42484485",
+          "42288413",
+          "43032836",
+          "43025379",
+          "43030770",
+          "42987450",
+          "42971730",
+          "42855085"
+        ],
+        "translationset": [],
+        "querytranslation": "(\"exercise\"[Title/Abstract] OR \"physical activity\"[Title/Abstract]) AND \"depress*\"[Title/Abstract] AND (\"systematic review\"[Publication Type] OR \"meta-analysis\"[Publication Type] OR \"systematic review\"[Title/Abstract])"
+      }
+    },
+    "success": true
+  },
+  {
+    "id": "Q02",
+    "query": "\"10.1136/bmj-2023-075847\"[AID] OR \"10.1136/bjsports-2022-106195\"[AID] OR \"10.1002/14651858.CD004366.pub6\"[AID]",
+    "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%2210.1136%2Fbmj-2023-075847%22%5BAID%5D+OR+%2210.1136%2Fbjsports-2022-106195%22%5BAID%5D+OR+%2210.1002%2F14651858.CD004366.pub6%22%5BAID%5D&retmode=json&retmax=10&sort=pub_date",
+    "run_utc": "2026-11-15T17:04:23.696648+00:00",
+    "purpose": "limited feasibility exercise; NOT final systematic search",
+    "retmax": 10,
+    "response": {
+      "header": {
+        "type": "esearch",
+        "version": "0.3"
+      },
+      "esearchresult": {
+        "count": "3",
+        "retmax": "3",
+        "retstart": "0",
+        "idlist": [
+          "38355154",
+          "36796860",
+          "24026850"
+        ],
+        "translationset": [],
+        "querytranslation": "\"10.1136/bmj-2023-075847\"[Publisher ID] OR \"10.1136/bjsports-2022-106195\"[Publisher ID] OR \"10.1002/14651858.CD004366.pub6\"[Publisher ID]"
+      }
+    },
+    "success": true
+  }
+]

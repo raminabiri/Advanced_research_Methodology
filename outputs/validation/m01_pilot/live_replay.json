@@ -1,0 +1,20 @@
+{
+  "script": "tools/m01_pubmed_pilot.py",
+  "script_sha256": "adfde54d652a6eb5f6ea95a3f61a4f3364af4d1f96e96b30e4f30b2d84670622",
+  "success": true,
+  "runs": [
+    {
+      "id": "Q01",
+      "run_utc": "2026-11-15T17:19:00.115227+00:00",
+      "count": "2272",
+      "received_ids": 10
+    },
+    {
+      "id": "Q02",
+      "run_utc": "2026-11-15T17:19:01.446988+00:00",
+      "count": "3",
+      "received_ids": 3
+    }
+  ],
+  "note": "Live replay used a fresh output directory; checked-in teaching snapshot unchanged. Not an exhaustive search or pedagogical approval."
+}

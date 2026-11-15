@@ -30,7 +30,12 @@
     "solutions": true,
     "r_execution_verified": false,
     "cma_gui_execution_verified": null,
-    "independent_expert_review": false
+    "independent_expert_review": false,
+    "content_revision": "execution_oriented_pilot_2026-11-15",
+    "author_approval": "pending_user_review",
+    "worked_example": "worked_example.md",
+    "workbook": "workbook.md",
+    "learning_completeness_verified": false
   },
   {
     "phase": 1,
