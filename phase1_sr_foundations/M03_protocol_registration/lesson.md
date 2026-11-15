@@ -196,6 +196,67 @@ OSF برای تغییر پاسخ‌های فرم، سابقهٔ زمان‌دا�
 | مسئول پاسخ‌گو | Guarantor |
 | دورهٔ محرمانه | Embargo |
 
-[صفحهٔ پیشین: معرفی ماژول](README.md) · [فهرست فاز](../README.md) · [صفحهٔ پسین: منابع](references.md)
+
+<a id="reading-resources"></a>
+
+## منابع نوشتاری
+
+تاریخ بررسی: **2026-11-15**. عنوان و DOI دو مقاله از Crossref تأیید شد. باز شدن صفحه به معنای دسترسی آزاد به همهٔ متن‌ها یا فیلم‌ها نیست.
+
+### خواندن ضروری
+
+۱. Moher D, Shamseer L, Clarke M, Ghersi D, Liberati A, Petticrew M, et al. Preferred reporting items for systematic review and meta-analysis protocols (PRISMA-P) 2015 statement. *Syst Rev*. 2015;4:1. [DOI: 10.1186/2046-4053-4-1](https://doi.org/10.1186/2046-4053-4-1).
+
+کاربرد: شناخت ساختار راهنما. [صفحهٔ رسمی و دریافت چک‌لیست](https://www.prisma-statement.org/protocols). چک‌لیست اصلی را کنار کاربرگ بگذارید؛ جدول درس بازنویسی کامل آن نیست.
+
+۲. Shamseer L, Moher D, Clarke M, Ghersi D, Liberati A, Petticrew M, et al. Preferred reporting items for systematic review and meta-analysis protocols (PRISMA-P) 2015: elaboration and explanation. *BMJ*. 2015;350:g7647. [DOI: 10.1136/bmj.g7647](https://doi.org/10.1136/bmj.g7647).
+
+کاربرد: برای هر بند مبهم، توضیح و نمونهٔ همان بند را بخوانید. اطلاعات جلد این ارجاع مطابق Crossref است؛ صفحهٔ معرفی PRISMA آن را با جلد 349 فهرست کرده است.
+
+### کتاب و راهنمای روش
+
+۳. Higgins JPT, Thomas J, Chandler J, et al., editors. *Cochrane Handbook for Systematic Reviews of Interventions*. Online current edition. Cochrane. [کتاب](https://www.cochrane.org/handbook).
+
+خواندن هدفمند: [فصل ۲، دامنه و پرسش مرور](https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-02)، [فصل ۳، معیارهای ورود و گروه‌بندی](https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-03) و [فصل ۱۲، سنتز با روش‌های دیگر](https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-12). برای این ماژول، پرسش اصلی هنگام خواندن این است: «این انتخاب باید در کجای پروتکل من نوشته شود؟»
+
+۴. Cochrane. *How to write a Cochrane protocol*. [راهنمای نویسندگی](https://www.cochrane.org/authors/how-write-cochrane-protocol).
+
+کاربرد: مرور مسیر از پرسش تا روش؛ الزامات اختصاصی کاکرین را با الزام عمومی همهٔ مرورها یکی نگیرید.
+
+### راهنمای سامانه‌ها
+
+۵. Centre for Reviews and Dissemination, University of York. *PROSPERO: How to register a systematic review*. [روند ثبت و رکورد آموزشی](https://www.crd.york.ac.uk/PROSPERO/helpdocs/register.html).
+
+۶. Centre for Reviews and Dissemination, University of York. *PROSPERO: Eligibility for inclusion*. [شرایط پذیرش](https://www.crd.york.ac.uk/PROSPERO/helpdocs/eligibility.html). پیش از هر ثبت واقعی دوباره بررسی شود.
+
+۷. Center for Open Science. *Welcome to Registrations & Preregistrations!* [راهنمای ثبت OSF](https://help.osf.io/article/330-welcome-to-registrations).
+
+۸. Center for Open Science. *OSF Projects Transition: Registration Questions and Use Cases*. [راهنمای تغییرهای سامانه](https://help.osf.io/article/768-osf-projects-transition-registration-questions-and-use-cases). برای تشخیص تفاوت فایل پروژه و ثبت، و مسیر جاری Registrations.
+
+### شیوهٔ مطالعه
+
+ابتدا چک‌لیست رسمی را ببینید، سپس تنها توضیح بندهایی را بخوانید که در کاربرگ برایتان مبهم‌اند. در پایان، شرایط پذیرش و مسیر آموزشی سامانه را بخوانید. حفظ کردن شمارهٔ بندها هدف این ماژول نیست؛ پیدا کردن جای هر تصمیم در متن هدف است.
+
+<a id="video-resources"></a>
+
+## فیلم‌ها و آموزش دیداری
+
+آخرین بررسی: **2026-11-15**. صفحه‌های رسمی زیر باز شدند و عنوان و محتوای معرفی با این ماژول هم‌خوان بود. پخش کامل فیلم‌ها آزمایش نشده است؛ برای پیوند مستقیم یوتیوب ادعای تأیید نداریم.
+
+| عنوان و تولیدکننده | نوع و زمان | زبان | پیوند و وضعیت دسترسی |
+|---|---|---|---|
+| Writing a review protocol – good practice and common errors؛ Cochrane، Nuala Livingstone | وبینار ضبط‌شده، زمان رویداد ۶۰ دقیقه؛ زمان کل ضبط وارسی نشده | انگلیسی | [صفحهٔ رسمی ضبط‌ها](https://www.cochrane.org/events/writing-review-protocol-good-practice-and-common-errors)؛ صفحه تأیید شد، برای ضبط ورود به حساب درخواست می‌شود |
+| Simplifying the Preregistration Process؛ Center for Open Science | فیلم همراه راهنمای متنی؛ زمان اعلام نشده | انگلیسی | [صفحهٔ رسمی فیلم](https://help.osf.io/article/626-simplifying-the-preregistration-process)؛ صفحه و وجود پخش‌کننده تأیید شد؛ پخش یوتیوب نیازمند وارسی خواننده |
+| Writing the review protocol؛ Cochrane Interactive Learning، ماژول ۲ | دورهٔ تعاملی، ۴۵ تا ۶۰ دقیقه؛ فیلم مستقل نیست | انگلیسی | [صفحهٔ دوره](https://www.cochrane.org/learn/courses-and-resources/interactive-learning/module-2-writing-review-protocol)؛ صفحه تأیید شد؛ ورود و بسته به دسترسی، اشتراک لازم است |
+
+### هنگام دیدن چه چیزی یادداشت کنید؟
+
+- وبینار کاکرین: سه عبارت مبهم در پروتکل خود پیدا و آن‌ها را قابل اجرا کنید.
+- فیلم OSF: تفاوت نوشتن برنامه، ثبت زمان‌دار و گزارش تغییرها را با زبان خود بنویسید.
+- دورهٔ تعاملی: معیارهای ورود خود را با ساختار پیشنهادی مقایسه کنید.
+
+اگر فیلم یا اشتراک در دسترس نبود، [درس](lesson.md)، چک‌لیست PRISMA-P و راهنماهای متنی [منابع](references.md) برای انجام تمرین کافی‌اند. تکلیف به خرید اشتراک یا دسترسی یوتیوب وابسته نیست.
+
+[فهرست فاز](../README.md) · [صفحهٔ پسین: کاربرگ یا تمرین](protocol_workbook.md)
 
 </div>

@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # P1-M02 — تدوین پرسش پژوهش
 
 ## اهداف یادگیری
@@ -155,3 +157,43 @@ SPIDER در جست‌وجو اختصاصی‌تر از PICO است، ولی حس
 ## پیوند با پرونده‌ی پیوسته
 
 **تکلیف این هفته:** پرسش شخصی خود را با چارچوب مناسب بنویسید. برای هر جزء تعریف عملیاتی بنویسید و پیامد اصلی و فرعی را مشخص کنید. سپس پرسش را با FINER ارزیابی کنید و نتیجه‌ی یک جست‌وجوی مقدماتی در PubMed را (تعداد رکورد و ۳ مطالعه‌ی کلیدی) گزارش کنید.
+
+<a id="reading-resources"></a>
+
+## منابع نوشتاری
+
+### منابع اصلی
+
+1. Cochrane Handbook, Chapter 2: Determining the scope of the review and the questions it will address. https://training.cochrane.org/handbook/current/chapter-02
+2. Cochrane Handbook, Chapter 3: Defining the criteria for including studies and how they will be grouped for the synthesis. https://training.cochrane.org/handbook/current/chapter-03
+3. JBI Manual for Evidence Synthesis، فصل ۵ (شیوع و بروز، چارچوب CoCoPop). https://synthesismanual.jbi.global
+
+### منابع تکمیلی
+
+4. Morgan RL, Whaley P, Thayer KA, Schünemann HJ. Identifying the PECO: a framework for formulating good questions to explore the association of environmental and other exposures with health outcomes. *Environ Int* 2018;121:1027–1031. https://doi.org/10.1016/j.envint.2018.07.015
+5. Cooke A, Smith D, Booth A. Beyond PICO: the SPIDER tool for qualitative evidence synthesis. *Qual Health Res* 2012;22:1435–1443. https://doi.org/10.1177/1049732312452938
+6. Munn Z, Stern C, Aromataris E, Lockwood C, Jordan Z. What kind of systematic review should I conduct? A proposed typology and guidance for systematic reviewers in the medical and health sciences. *BMC Med Res Methodol* 2018;18:5. https://doi.org/10.1186/s12874-017-0468-4
+7. Hulley SB, Cummings SR, Browner WS, Grady DG, Newman TB. *Designing Clinical Research*. 4th ed. Lippincott Williams & Wilkins; 2013. (فصل ۲: معیارهای FINER)
+8. Colditz GA, Brewer TF, Berkey CS, et al. Efficacy of BCG vaccine in the prevention of tuberculosis: meta-analysis of the published literature. *JAMA* 1994;271:698–702. https://doi.org/10.1001/jama.1994.03510330076038
+9. Riley RD, Moons KGM, Snell KIE, et al. A guide to systematic review and meta-analysis of prognostic factor studies. *BMJ* 2019;364:k4597. https://doi.org/10.1136/bmj.k4597
+
+<a id="video-resources"></a>
+
+## فیلم‌ها و آموزش دیداری
+
+آخرین بررسی لینک‌ها: ۴ آبان ۱۴۰۵ (2026-10-26)
+
+| # | عنوان | تولیدکننده | مدت | زبان | لینک | وضعیت |
+|---|---|---|---|---|---|---|
+| 1 | How to ask a clinical question in PICO format | PEDro (Physiotherapy Evidence Database) | کوتاه | انگلیسی و ۸ زبان دیگر | https://pedro.org.au/?p=12099 (صفحه‌ی معرفی و لینک ویدیو) | 🔎 صفحه از سرور بررسی باز نشد |
+| 2 | Introduction to Systematic Reviews، قسمت ۳: ساخت راهبرد جست‌وجو با PICO و PEO | Himmelfarb Library, GWU | زیر ۶ دقیقه | انگلیسی | https://himmelfarb.gwu.edu/tutorials/ | ✅ صفحه‌ی فهرست |
+| 3 | Cochrane Interactive Learning، ماژول ۲: Writing the review protocol (بخش پرسش و معیارهای ورود) | Cochrane Training | حدود ۱ ساعت | انگلیسی | https://training.cochrane.org/interactivelearning | ✅ (نیاز به اشتراک یا دسترسی سازمانی) |
+| 4 | Learn about Medical Subject Headings (MeSH): مقدمه‌ای برای تبدیل اجزای PICO به واژه‌ی جست‌وجو | NLM | — | انگلیسی | https://learn.nlm.nih.gov/documentation/training-packets/T000101112 | ✅ |
+
+### پیشنهاد
+
+پیش از جلسه ویدیوی ۱ را ببینید. ویدیوی ۲ پلی است به جلسه‌ی M04 (جست‌وجو).
+
+[فهرست فاز](../README.md) · [صفحهٔ پسین: کاربرگ یا تمرین](exercises.md)
+
+</div>
