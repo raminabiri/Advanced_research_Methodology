@@ -19,4 +19,4 @@ Q01 جست‌وجوی موضوعی در 2026-11-15 است: count=2272، ولی r
 
 منابع نوشتاری و لینک مستقیم فیلم‌ها **در پایان درس** هستند؛ فایل‌های این پوشه داده و فراداده‌اند، نه فایل جداگانهٔ منابع یا فیلم.
 
-[صفحهٔ پیشین: درس](../../../phase1_sr_foundations/M01_review_types/lesson.md) · [صفحهٔ پسین: پروندهٔ حل‌شده](../../../phase1_sr_foundations/M01_review_types/worked_example.md)
+[صفحهٔ پیشین: درس](../../../phase1_sr_foundations/M01_review_types/lesson.md) · [صفحهٔ پسین: پروندهٔ حل‌شده](../../../phase1_sr_foundations/M01_review_types/lesson.md#worked-example)

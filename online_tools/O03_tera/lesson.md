@@ -49,7 +49,7 @@ TERA ادامهٔ توسعهٔ ابزارهای شتاب‌دهندهٔ مرور
 
 [کتابخانهٔ واقعی تمرین](../../data/online_tools/practice_records.ris). عددهای این فایل واقعی‌اند؛ تغییرهای فرضی و سناریوهای ساخته‌شده باید جدا نام‌گذاری شوند.
 
-[کارگاه PRESS](../../phase1_sr_foundations/M04_systematic_search/tool_workshop.md) · [ورودی تکرار](../../data/online_tools/practice_records.ris).
+[کارگاه PRESS](../../phase1_sr_foundations/M04_systematic_search/lesson.md#tool-workshop) · [ورودی تکرار](../../data/online_tools/practice_records.ris).
 
 ## واژه‌نامه
 

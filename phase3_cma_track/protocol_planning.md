@@ -6,7 +6,7 @@
 
 ## اکنون چه کاری انجام دهید؟
 
-۱. [کاربرگ پروتکل](../phase1_sr_foundations/M03_protocol_registration/protocol_workbook.md) را در پوشهٔ شخصی خود نگه دارید.
+۱. [کاربرگ پروتکل](../phase1_sr_foundations/M03_protocol_registration/exercises.md#protocol-workbook) را در پوشهٔ شخصی خود نگه دارید.
 ۲. برای هر پیامد، تعریف، زمان و ترتیب انتخاب گزارش را بنویسید.
 ۳. یک جدول برنامهٔ تحلیل با ستون‌های زیر آماده کنید. خانهٔ ناآموخته را «نیازمند تکمیل پیش از اجرا» بنویسید؛ حدس نزنید.
 
@@ -32,6 +32,6 @@
 | برآوردگر | Estimator |
 | بازتولیدپذیری | Reproducibility |
 
-[صفحهٔ پیشین: درس پروتکل](../phase1_sr_foundations/M03_protocol_registration/lesson.md) · [فهرست مسیر](README.md) · [صفحهٔ پسین: کاربرگ](../phase1_sr_foundations/M03_protocol_registration/protocol_workbook.md)
+[صفحهٔ پیشین: درس پروتکل](../phase1_sr_foundations/M03_protocol_registration/lesson.md) · [فهرست مسیر](README.md) · [صفحهٔ پسین: کاربرگ](../phase1_sr_foundations/M03_protocol_registration/exercises.md#protocol-workbook)
 
 </div>

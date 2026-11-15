@@ -1,0 +1,197 @@
+[
+  {
+    "removed": "phase1_sr_foundations/M01_review_types/worked_example.md",
+    "destination": "phase1_sr_foundations/M01_review_types/lesson.md",
+    "anchor": "worked-example"
+  },
+  {
+    "removed": "phase1_sr_foundations/M01_review_types/workbook.md",
+    "destination": "phase1_sr_foundations/M01_review_types/exercises.md",
+    "anchor": "project-workbook"
+  },
+  {
+    "removed": "phase1_sr_foundations/M01_review_types/tool_workshop.md",
+    "destination": "phase1_sr_foundations/M01_review_types/lesson.md",
+    "anchor": "tool-workshop"
+  },
+  {
+    "removed": "phase1_sr_foundations/M01_review_types/tool_exercises.md",
+    "destination": "phase1_sr_foundations/M01_review_types/exercises.md",
+    "anchor": "tool-exercises"
+  },
+  {
+    "removed": "phase1_sr_foundations/M01_review_types/tool_solutions.md",
+    "destination": "phase1_sr_foundations/M01_review_types/solutions.md",
+    "anchor": "tool-solutions"
+  },
+  {
+    "removed": "phase1_sr_foundations/M03_protocol_registration/protocol_workbook.md",
+    "destination": "phase1_sr_foundations/M03_protocol_registration/exercises.md",
+    "anchor": "protocol-workbook"
+  },
+  {
+    "removed": "phase1_sr_foundations/M03_protocol_registration/tool_workshop.md",
+    "destination": "phase1_sr_foundations/M03_protocol_registration/lesson.md",
+    "anchor": "tool-workshop"
+  },
+  {
+    "removed": "phase1_sr_foundations/M03_protocol_registration/tool_exercises.md",
+    "destination": "phase1_sr_foundations/M03_protocol_registration/exercises.md",
+    "anchor": "tool-exercises"
+  },
+  {
+    "removed": "phase1_sr_foundations/M03_protocol_registration/tool_solutions.md",
+    "destination": "phase1_sr_foundations/M03_protocol_registration/solutions.md",
+    "anchor": "tool-solutions"
+  },
+  {
+    "removed": "phase1_sr_foundations/M04_systematic_search/tool_workshop.md",
+    "destination": "phase1_sr_foundations/M04_systematic_search/lesson.md",
+    "anchor": "tool-workshop"
+  },
+  {
+    "removed": "phase1_sr_foundations/M04_systematic_search/tool_exercises.md",
+    "destination": "phase1_sr_foundations/M04_systematic_search/exercises.md",
+    "anchor": "tool-exercises"
+  },
+  {
+    "removed": "phase1_sr_foundations/M04_systematic_search/tool_solutions.md",
+    "destination": "phase1_sr_foundations/M04_systematic_search/solutions.md",
+    "anchor": "tool-solutions"
+  },
+  {
+    "removed": "phase1_sr_foundations/M05_screening/tool_workshop.md",
+    "destination": "phase1_sr_foundations/M05_screening/lesson.md",
+    "anchor": "tool-workshop"
+  },
+  {
+    "removed": "phase1_sr_foundations/M05_screening/tool_exercises.md",
+    "destination": "phase1_sr_foundations/M05_screening/exercises.md",
+    "anchor": "tool-exercises"
+  },
+  {
+    "removed": "phase1_sr_foundations/M05_screening/tool_solutions.md",
+    "destination": "phase1_sr_foundations/M05_screening/solutions.md",
+    "anchor": "tool-solutions"
+  },
+  {
+    "removed": "phase1_sr_foundations/M07_risk_of_bias/tool_workshop.md",
+    "destination": "phase1_sr_foundations/M07_risk_of_bias/lesson.md",
+    "anchor": "tool-workshop"
+  },
+  {
+    "removed": "phase1_sr_foundations/M07_risk_of_bias/tool_exercises.md",
+    "destination": "phase1_sr_foundations/M07_risk_of_bias/exercises.md",
+    "anchor": "tool-exercises"
+  },
+  {
+    "removed": "phase1_sr_foundations/M07_risk_of_bias/tool_solutions.md",
+    "destination": "phase1_sr_foundations/M07_risk_of_bias/solutions.md",
+    "anchor": "tool-solutions"
+  },
+  {
+    "removed": "phase1_sr_foundations/M08_reporting_appraisal/tool_workshop.md",
+    "destination": "phase1_sr_foundations/M08_reporting_appraisal/lesson.md",
+    "anchor": "tool-workshop"
+  },
+  {
+    "removed": "phase1_sr_foundations/M08_reporting_appraisal/tool_exercises.md",
+    "destination": "phase1_sr_foundations/M08_reporting_appraisal/exercises.md",
+    "anchor": "tool-exercises"
+  },
+  {
+    "removed": "phase1_sr_foundations/M08_reporting_appraisal/tool_solutions.md",
+    "destination": "phase1_sr_foundations/M08_reporting_appraisal/solutions.md",
+    "anchor": "tool-solutions"
+  },
+  {
+    "removed": "phase2_meta_analysis_theory/M12_forest_subgroup_sensitivity/tool_workshop.md",
+    "destination": "phase2_meta_analysis_theory/M12_forest_subgroup_sensitivity/lesson.md",
+    "anchor": "tool-workshop"
+  },
+  {
+    "removed": "phase2_meta_analysis_theory/M12_forest_subgroup_sensitivity/tool_exercises.md",
+    "destination": "phase2_meta_analysis_theory/M12_forest_subgroup_sensitivity/exercises.md",
+    "anchor": "tool-exercises"
+  },
+  {
+    "removed": "phase2_meta_analysis_theory/M12_forest_subgroup_sensitivity/tool_solutions.md",
+    "destination": "phase2_meta_analysis_theory/M12_forest_subgroup_sensitivity/solutions.md",
+    "anchor": "tool-solutions"
+  },
+  {
+    "removed": "phase2_meta_analysis_theory/M13_publication_bias/tool_workshop.md",
+    "destination": "phase2_meta_analysis_theory/M13_publication_bias/lesson.md",
+    "anchor": "tool-workshop"
+  },
+  {
+    "removed": "phase2_meta_analysis_theory/M13_publication_bias/tool_exercises.md",
+    "destination": "phase2_meta_analysis_theory/M13_publication_bias/exercises.md",
+    "anchor": "tool-exercises"
+  },
+  {
+    "removed": "phase2_meta_analysis_theory/M13_publication_bias/tool_solutions.md",
+    "destination": "phase2_meta_analysis_theory/M13_publication_bias/solutions.md",
+    "anchor": "tool-solutions"
+  },
+  {
+    "removed": "phase2_meta_analysis_theory/M17_grade_certainty/tool_workshop.md",
+    "destination": "phase2_meta_analysis_theory/M17_grade_certainty/lesson.md",
+    "anchor": "tool-workshop"
+  },
+  {
+    "removed": "phase2_meta_analysis_theory/M17_grade_certainty/tool_exercises.md",
+    "destination": "phase2_meta_analysis_theory/M17_grade_certainty/exercises.md",
+    "anchor": "tool-exercises"
+  },
+  {
+    "removed": "phase2_meta_analysis_theory/M17_grade_certainty/tool_solutions.md",
+    "destination": "phase2_meta_analysis_theory/M17_grade_certainty/solutions.md",
+    "anchor": "tool-solutions"
+  },
+  {
+    "removed": "phase5_umbrella_review/M18_rationale_prior/tool_workshop.md",
+    "destination": "phase5_umbrella_review/M18_rationale_prior/lesson.md",
+    "anchor": "tool-workshop"
+  },
+  {
+    "removed": "phase5_umbrella_review/M18_rationale_prior/tool_exercises.md",
+    "destination": "phase5_umbrella_review/M18_rationale_prior/exercises.md",
+    "anchor": "tool-exercises"
+  },
+  {
+    "removed": "phase5_umbrella_review/M18_rationale_prior/tool_solutions.md",
+    "destination": "phase5_umbrella_review/M18_rationale_prior/solutions.md",
+    "anchor": "tool-solutions"
+  },
+  {
+    "removed": "phase5_umbrella_review/M20_amstar2_robis/tool_workshop.md",
+    "destination": "phase5_umbrella_review/M20_amstar2_robis/lesson.md",
+    "anchor": "tool-workshop"
+  },
+  {
+    "removed": "phase5_umbrella_review/M20_amstar2_robis/tool_exercises.md",
+    "destination": "phase5_umbrella_review/M20_amstar2_robis/exercises.md",
+    "anchor": "tool-exercises"
+  },
+  {
+    "removed": "phase5_umbrella_review/M20_amstar2_robis/tool_solutions.md",
+    "destination": "phase5_umbrella_review/M20_amstar2_robis/solutions.md",
+    "anchor": "tool-solutions"
+  },
+  {
+    "removed": "phase6_burden_of_disease/M28_national_subnational/tool_workshop.md",
+    "destination": "phase6_burden_of_disease/M28_national_subnational/lesson.md",
+    "anchor": "tool-workshop"
+  },
+  {
+    "removed": "phase6_burden_of_disease/M28_national_subnational/tool_exercises.md",
+    "destination": "phase6_burden_of_disease/M28_national_subnational/exercises.md",
+    "anchor": "tool-exercises"
+  },
+  {
+    "removed": "phase6_burden_of_disease/M28_national_subnational/tool_solutions.md",
+    "destination": "phase6_burden_of_disease/M28_national_subnational/solutions.md",
+    "anchor": "tool-solutions"
+  }
+]

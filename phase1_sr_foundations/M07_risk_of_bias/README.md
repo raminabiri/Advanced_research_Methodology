@@ -4,4 +4,4 @@
 
 [درس و منابع پایانی](lesson.md) · [تمرین](exercises.md) · [پاسخ تشریحی](solutions.md)
 
-[کارگاه ابزار و جدول حل‌شده](tool_workshop.md) · [تمرین با مقالهٔ واقعی](tool_exercises.md) · [پاسخ ابزار](tool_solutions.md)
+[کارگاه ابزار و جدول حل‌شده](lesson.md#tool-workshop) · [تمرین با مقالهٔ واقعی](exercises.md#tool-exercises) · [پاسخ ابزار](solutions.md#tool-solutions)

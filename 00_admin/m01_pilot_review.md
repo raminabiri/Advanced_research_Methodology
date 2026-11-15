@@ -7,10 +7,10 @@
 | جزء | شاهد |
 |---|---|
 | آموزش از مسئله تا تصمیم | [درس M01](../phase1_sr_foundations/M01_review_types/lesson.md)؛ اجرای ثبت‌شده، دلیل تصمیم‌ها و معیار تحویل |
-| نمونهٔ واقعیِ حل‌شدهٔ همین مرحله | [پروندهٔ ورزش و افسردگی](../phase1_sr_foundations/M01_review_types/worked_example.md)؛ سناریو و قضاوت آموزشی از دادهٔ مقاله‌ها جداست |
+| نمونهٔ واقعیِ حل‌شدهٔ همین مرحله | [پروندهٔ ورزش و افسردگی](../phase1_sr_foundations/M01_review_types/lesson.md#worked-example)؛ سناریو و قضاوت آموزشی از دادهٔ مقاله‌ها جداست |
 | فایل‌های قابل کار | [داده و فراداده](../data/systematic_review_case/m01_feasibility/README.md)؛ جدول پرشده، قالب CSV و دفترچهٔ اجرای واقعی |
 | تمرین انتقال به موضوع دیگر | [تمرین](../phase1_sr_foundations/M01_review_types/exercises.md) و [پاسخ](../phase1_sr_foundations/M01_review_types/solutions.md)؛ دو مرور واقعی ویتامین D با جدول و تصمیم پرشده |
-| کار خواننده روی پروژهٔ خودش | [کاربرگ](../phase1_sr_foundations/M01_review_types/workbook.md)؛ خالی‌بودن آن عمدی و برچسب‌خورده است |
+| کار خواننده روی پروژهٔ خودش | [کاربرگ](../phase1_sr_foundations/M01_review_types/exercises.md#project-workbook)؛ خالی‌بودن آن عمدی و برچسب‌خورده است |
 | فیلم | چهار لینک مستقیم یوتیوب در پایان درس؛ دو فیلم UQ از صفحهٔ رسمی دانشگاه، فیلم Cochrane از معرفی رسمی و فیلم تکمیلی JBI از منبع دانشگاهی تطبیق داده شده‌اند |
 
 ## چه چیزی بررسی شد؟
@@ -28,4 +28,4 @@
 
 معیار پیشنهادی برای تصمیم نویسنده این است که آیا خواننده می‌تواند بدون راهنمای شفاهی اضافی، همین مرحله را برای موضوع دیگری انجام دهد: پرسش اولیه، جست‌وجوی ثبت‌شده، جدول با شاهد و تصمیم مستند. تعداد واژه‌ها و موفقیت بررسی فنی این توانایی را اثبات نمی‌کنند.
 
-[صفحهٔ پیشین: درس نمونه](../phase1_sr_foundations/M01_review_types/lesson.md) · [صفحهٔ پسین: پروندهٔ حل‌شده](../phase1_sr_foundations/M01_review_types/worked_example.md)
+[صفحهٔ پیشین: درس نمونه](../phase1_sr_foundations/M01_review_types/lesson.md) · [صفحهٔ پسین: پروندهٔ حل‌شده](../phase1_sr_foundations/M01_review_types/lesson.md#worked-example)

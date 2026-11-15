@@ -1,0 +1,403 @@
+[
+  {
+    "path": "phase0_prerequisites/M01_epi_stats_refresher",
+    "deliverable": "برگهٔ statistical_readiness با تعریف چهار خانه، مخرج‌ها، RR،RD،OR،SE و CI؛ برای مرحلهٔ استخراج نگه داشته شود.",
+    "input": "پیش‌نیاز نرم‌افزاری ندارد. فایل واقعی data/shared/bcg.csv و کاغذ یا صفحه‌گسترده را آماده کنید؛ فقط ردیف Aronson را امروز می‌خوانیم.",
+    "next_action": "در درس راه‌اندازی، برگه و CSV واقعی را با منشأ روشن در پوشهٔ پروژه قرار دهید؛ هنوز مدل تجمیعی نمی‌سازیم.",
+    "videos": [
+      "rmeta"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase0_prerequisites/M02_tools_setup",
+    "deliverable": "پوشهٔ review_project، کتابخانهٔ منابع، یک RIS صادرشده، culture داده ودفترچهٔ نسخهٔ ابزارها؛ اطلاعات ورود حساب در آن نباشد.",
+    "input": "برگهٔ آمادگی آماری و یک مرور واقعی با PMID یاDOI؛ از M01 مسیر مبانی، پروندهٔ ورزش/افسردگی را خواهیم ساخت.",
+    "next_action": "پروندهٔمرور را درM01 مبانی شروع کنید وازهمین نام‌گذاری ودفترچه درتمام درس‌ها بهره بگیرید.",
+    "videos": [
+      "screen",
+      "cma"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase1_sr_foundations/M02_research_question",
+    "deliverable": "جدول eligibility_v1 باتعریف عملیاتی هرجزءPICO،سه موردمرزی ودلیل تصمیم؛نسخهٔورودی پروتکل درM03.",
+    "input": "پرسش اولیه،جدول مرورهای پیشین ویادداشت تصمیم درسM01؛موضوعپیوسته ورزش وافسردگی است.",
+    "next_action": "همینeligibility_v1 ومواردمرزی را بهM03ببرید؛پروتکلنباید آن‌ها را دوبارهبدونردتغییر تعریفکند.",
+    "videos": [
+      "presearch",
+      "intro"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase1_sr_foundations/M03_protocol_registration",
+    "deliverable": "protocol_v1 شامل روش کامل، پروندهٔ معیارها، فرم استخراج اولیه و amendments؛ وضعیت ثبت هم صریح نوشته شود.",
+    "input": "جدول معیار ورود M02 و یادداشت ضرورت مرور M01؛ اجرای پیش رو بازسازی آموزشی است و پیش‌ثبت ناآگاه از نتایج محسوب نمی‌شود.",
+    "next_action": "در M04، همین protocol_v1 تعیین می‌کند کدام جست‌وجو را بسازید؛ تغییر مفهوم در جست‌وجو باید در amendments هم دیده شود.",
+    "videos": [
+      "presearch",
+      "screen"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase1_sr_foundations/M04_systematic_search",
+    "deliverable": "search_v1: عبارت کامل هر پایگاه/رابط، زمان، خروجی خام، گزارش بازبینی PRESS، نگاشت PRISMA-S و محدودیت پوشش.",
+    "input": "پروتکل و معیار ورودِ تثبیت‌شده؛ مرورهای شناخته‌شده و دو کارآزمایی واقعی برای کنترل بازیابی.",
+    "next_action": "خروجی خام را در M05 وارد کنید؛ شمار رکوردهای هر مسیر باید قابل جمع و پیگیری بماند.",
+    "videos": [
+      "mesh",
+      "searchcheck",
+      "screen"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase1_sr_foundations/M05_screening",
+    "deliverable": "screening_log با record_id،report_id،study_id،تصمیم هر ارزیاب،دلیل متن کامل و حل اختلاف؛ اعداد نمودار جریان از همین دفترچه استخراج شوند.",
+    "input": "راهبردها و خروجی خام جست‌وجو،معیار ورود و شناسه‌های منبع از M04؛ فایل RIS کوچک نیز برای آزمایش رابط موجود است.",
+    "next_action": "مطالعات واجدشرایط وگزارش‌های مرتبطشان با study_id ثابت به M06 منتقل می‌شوند؛ شمارهٔ سطر شناسهٔ مطالعه نیست.",
+    "videos": [
+      "screen",
+      "searchcheck"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase1_sr_foundations/M06_data_extraction",
+    "deliverable": "extraction_v1 در قالب study،arm وoutcome با ستون مقدار،نوع آماره،جامعهٔ تحلیل،محل شاهد وکنترل دوم؛ دادهٔ خام از پاک‌شده جدا بماند.",
+    "input": "دفترچهٔ انتخاب مطالعه،متن گزارش‌ها،شناسهٔ مطالعه/بازو وپروتکل پیامد و زمان از M05.",
+    "next_action": "فرم استخراجِ دارای شاهد بهM07 می‌رود و هر نتیجهٔ قابل تحلیل به فاز اندازهٔ اثر منتقل می‌شود؛دادهٔ گمشده ازبین نمی‌رود.",
+    "videos": [
+      "screen",
+      "rmeta"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase1_sr_foundations/M07_risk_of_bias",
+    "deliverable": "برگهٔ ارزیابی با نسخهٔ ابزار،پرسش‌های راهنما،شاهد،دلیل حوزه وداوری کلی؛قضاوت حل‌نشده جدا علامت بخورد.",
+    "input": "هر نتیجهٔ استخراج‌شده با جمعیت،مقایسه،زمان وجامعهٔ تحلیل؛ ابزار برای نتیجه انتخاب می‌شود،نه برای ظاهر مقاله.",
+    "next_action": "درM08،همین قضاوت‌ها و محدودیت‌ها بهجدول شواهد وگزارش روش منتقل می‌شوند؛نام ابزار جای نتیجهٔ ارزیابی نمی‌نشیند.",
+    "videos": [
+      "rob",
+      "rob_random"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase1_sr_foundations/M08_reporting_appraisal",
+    "deliverable": "گزارش کوتاهِمرحلهٔمرور با نگاشت PRISMA،جدول ویژگی‌ها،سنتز قابل ردیابی ودفترچهٔمحدودیت؛اگرمتاآنالیز مناسب نیست،دلیل نوشته شود.",
+    "input": "پروتکل،رد جست‌وجو،دفترچهٔانتخاب،استخراج وداوری نتیجه‌محور M07؛شمارهٔنسخهٔهرکدام مشخص باشد.",
+    "next_action": "برای فاز2،دادهٔ واقعی BCG پروندهٔعددآموزیِکامل وکوچک است؛تغییرپرونده ازورزش بهBCG صریح است وبه معنی تکمیل تحلیل ورزش نیست.",
+    "videos": [
+      "intro",
+      "grade"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase2_meta_analysis_theory/M09_effect_sizes",
+    "deliverable": "effect_table با study_id،مقیاس،جهت،yi،vi،منبع وپرچم تبدیل؛این همان ورودی مدل M10 است.",
+    "input": "دادهٔ استخراج‌شده با تعریف پیامد، زمان، گروه‌ها و جامعهٔ تحلیل؛ برای تمرین عددی، فایل واقعی BCG پروندهٔ جداگانهٔ این فاز است.",
+    "next_action": "M10 فقطeffect_table کنترل‌شده را می‌پذیرد؛فایل خام و دفترچهٔ تبدیل حذف نمی‌شوند.",
+    "videos": [
+      "rmeta",
+      "cma"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase2_meta_analysis_theory/M10_fixed_random_models",
+    "deliverable": "model_spec وmodel_comparison شامل هدف،برآوردگرtau²،روش CI،تنظیم صفرها و نتیجهٔ هر مدل؛مدل اصلی با دلیل مشخص شود.",
+    "input": "effect_table با yi وvi هم‌مقیاس از M09 و تعریف روشن اثر هدف؛این بار13 مطالعهٔ واقعی BCG را ترکیب می‌کنیم.",
+    "next_action": "خروجی مدل اصلی و روش CI بدون تغییر به M11 می‌رود؛ناهمگنی وپیش‌بینی رویهمان مدل خوانده می‌شوند.",
+    "videos": [
+      "rmeta",
+      "cma"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase2_meta_analysis_theory/M11_heterogeneity",
+    "deliverable": "heterogeneity_note با Q،df،روش I²،tau²،CI میانگین،PI وفرض‌های انتقال به محیط تازه.",
+    "input": "مدل تصادفی مشخص واثرهای مطالعه‌محور ازM10،نه فقط RR نهایی.",
+    "next_action": "توضیح‌های ازپیش‌موجه وموارد اثرگذار درM12 بررسی می‌شوند؛تا آن زمان مطالعه‌ای را برایکم‌کردن I² حذف نکنید.",
+    "videos": [
+      "cma",
+      "complex"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase2_meta_analysis_theory/M12_forest_subgroup_sensitivity",
+    "deliverable": "forest همراه تعریف علامت‌ها،جدول زیرگروه/آزمون تعامل،جدولحذف تک‌به‌تک و دلیل هر تحلیل.",
+    "input": "مدل اصلی،دفتر ناهمگنی وپرسش‌های حساسیت؛درمثال عددی هنوز13مطالعهٔ BCG داریم.",
+    "next_action": "اثرهای پذیرفته‌شده ودفترچهٔحساسیت بهM13 می‌روند؛نقاط نامطلوب برایمتقارن‌کردن قیف حذف نمی‌شوند.",
+    "videos": [
+      "cma",
+      "complex"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase2_meta_analysis_theory/M13_publication_bias",
+    "deliverable": "missing_evidence_note شامل جست‌وجوی ثبت‌ها،قیف،آزمون متناسب،حساسیت trimfill/selection ودامنهٔ نتیجه‌گیری.",
+    "input": "جدول اثر وSE،شناخت نتیجهٔهدف وبرنامهٔ حساسیت؛دادهٔ منتشرنشده ونتیجهٔگمشده باید در سطح درست بررسی شوند.",
+    "next_action": "درM14 تنها تعدیل‌گرهای دارایمنطق واطلاعات کافی وارد مدل می‌شوند؛آزمون‌های زیادِپس‌نگر راه‌حل نامتقارنی نیستند.",
+    "videos": [
+      "cma",
+      "complex"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase2_meta_analysis_theory/M14_meta_regression",
+    "deliverable": "moderator_spec با واحد،مرکزگذاری،تعداد مطالعه/پارامتر،مدل،CI،آزمون جایگشتی وحساسیت؛ادعای فردی ازآن ساخته نشود.",
+    "input": "مدل تصادفی اصلی،تعریف متغیرِتعدیل‌گر وفرضیهٔ نوشته‌شده؛در BCG ازablat فقط برایبررسی رابطهٔ بین‌مطالعه‌ای بهره می‌گیریم.",
+    "next_action": "برایM15،دادهٔ رخداد نادر پروندهٔجداست؛مدل تعدیل‌گر BCG خودکار بهآن منتقل نمی‌شود.",
+    "videos": [
+      "cma",
+      "complex"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase2_meta_analysis_theory/M15_rare_events",
+    "deliverable": "zero_audit وrare_model_table با شمار صفرها،روش،kِقابل تحلیل،تصحیح وCI؛اثر حذف دوصفر روشن باشد.",
+    "input": "جدول چهارخانهٔ واقعی Nissen2007 وپروتکل تعریف پیامد؛روزیگلیتازون/کنترل پروندهٔ تاریخی آموزشی است،نه توصیهٔدارویی روز.",
+    "next_action": "M16 ازنسبت تک‌گروهی استفاده می‌کند؛OR این درس را بهشیوع تبدیل نکنید.",
+    "videos": [
+      "rmeta",
+      "cma"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase2_meta_analysis_theory/M16_prevalence_proportions",
+    "deliverable": "prevalence_spec،جدول event/denominator ودو مدل با مقیاس گزارش مشترک در100هزار؛نمونهٔآموزشی را برآورد جهانی تازه ننامید.",
+    "input": "فایل واقعی Crisafulli2020 با26ردیفِشیوع هنگام تولد دوشن؛تعریف جمعیت،مخرج وهم‌پوشانی منابع باید خوانده شود.",
+    "next_action": "اثرهای با تعریف مناسب ودفتر محدودیت ورودیِGRADE درM17‌اند؛نرم‌افزار ازشیوع به‌تنهایی قطعیت نمی‌سازد.",
+    "videos": [
+      "rmeta",
+      "complex"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase2_meta_analysis_theory/M17_grade_certainty",
+    "deliverable": "evidence_profile وSoF برایهرپیامد،با قضاوت حوزه‌ها،آستانهٔبالینی،پاورقی ودلیل؛نقل رتبهٔمقاله ازGRADE دوباره جدا باشد.",
+    "input": "نتیجهٔ هدف،اثر مطلق/نسبی،مطالعات وداوری خطرسوگیری؛اگر پرونده فقطبازتحلیل است،نبود ارزیابی تازه آشکار بماند.",
+    "next_action": "برای مسیرCMA یاR،جدول اثر ودلیل قضاوت را همراه فایلتحلیل نگه دارید؛ابزار برآورد،قضاوت قطعیت را جایگزین نمی‌کند.",
+    "videos": [
+      "grade"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase3_cma_track/C01_environment_data_entry",
+    "deliverable": "فایل پروژهٔ CMA4 با13مطالعه،فرم data_entry_check ویک خروجی قابل بازخوانی.",
+    "input": "فرهنگ ستون‌ها وچهارخانهٔ BCG؛شش درس CMA شاخه‌ای جایگزین مسیرR هستند،نه شرط گذراندن آن.",
+    "next_action": "خروجی ودفترچهٔهمینمرحله را دردرس بعد ودرپروژهٔنهایی نگه دارید؛Rگزینهٔدیگر است وشرط اینمسیرنیست.",
+    "videos": [
+      "cma"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase3_cma_track/C02_basic_meta_analysis",
+    "deliverable": "model_settings_CMA و جدول اثر/CI/tau² با ثبت روش،نه فقط تصویر لوزی.",
+    "input": "فایل کنترل‌شدهٔ C01،تعریف اثر هدف وقرارداد مدل M10.",
+    "next_action": "خروجی ودفترچهٔهمینمرحله را دردرس بعد ودرپروژهٔنهایی نگه دارید؛Rگزینهٔدیگر است وشرط اینمسیرنیست.",
+    "videos": [
+      "cma"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase3_cma_track/C03_forest_heterogeneity_subgroups",
+    "deliverable": "forest برچسب‌خورده،PI با روش،جدول زیرگروه alloc و جدول حذف تک‌به‌تک.",
+    "input": "پروژهٔ C02 ودفترچهٔناهمگنی/حساسیت M11 وM12.",
+    "next_action": "خروجی ودفترچهٔهمینمرحله را دردرس بعد ودرپروژهٔنهایی نگه دارید؛Rگزینهٔدیگر است وشرط اینمسیرنیست.",
+    "videos": [
+      "cma"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase3_cma_track/C04_publication_bias_metaregression",
+    "deliverable": "دفترچهٔقیف/آزمون،trimfill فرضی ومتارگرسیون باواحدعرض وتفسیر بین‌مطالعه‌ای.",
+    "input": "فایلCMA بااثرهایlogRR/SE وتعدیل‌گرablat کنترل‌شده.",
+    "next_action": "خروجی ودفترچهٔهمینمرحله را دردرس بعد ودرپروژهٔنهایی نگه دارید؛Rگزینهٔدیگر است وشرط اینمسیرنیست.",
+    "videos": [
+      "cma"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase3_cma_track/C05_prevalence_rare_multiple_outcomes",
+    "deliverable": "سه برگهٔتصمیم:صفرها،مخرج نسبت،وابستگی پیامد؛فقطروشِپشتیبانی‌شدهٔواقعی اجرا شود.",
+    "input": "دادهٔ واقعیِرخدادنادر،شیوع ودوپیامدهم‌بسته؛هرپرونده پروژهٔجدا دارد.",
+    "next_action": "خروجی ودفترچهٔهمینمرحله را دردرس بعد ودرپروژهٔنهایی نگه دارید؛Rگزینهٔدیگر است وشرط اینمسیرنیست.",
+    "videos": [
+      "cma"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase3_cma_track/C06_full_project",
+    "deliverable": "بستهٔCMA شامل ورودیخام،پروژه،تنظیم‌ها،جدولاصلی/حساسیت،شکل،یادداشتقطعیت وراهنمایبازکردن.",
+    "input": "فایل‌ها ودفترچه‌هایC01تاC05؛برایتحویلبازتولیدپذیر،پروژهٔBCGرا ازنو باز می‌کنیم.",
+    "next_action": "خروجی ودفترچهٔهمینمرحله را دردرس بعد ودرپروژهٔنهایی نگه دارید؛Rگزینهٔدیگر است وشرط اینمسیرنیست.",
+    "videos": [
+      "cma"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase4_r_track/R01_r_basics",
+    "deliverable": "کد پروژه،خروجی‌ها ودفترچهٔاجرای R01_r_basics؛موضوع: شناختdata.frame،واردسازی،نوع‌ستون وذخیرهٔبدونrow.names",
+    "input": "پوشهٔپروژه وCSV واقعیBCG ازپیش‌نیازها",
+    "next_action": "همان داده ودفترچه ورودی مرحلهٔبعد است؛برایگزارش نهایی،روش،مقیاس واجرایواقعی حفظ شوند.",
+    "videos": [
+      "rmeta",
+      "complex"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase4_r_track/R02_data_prep_escalc",
+    "deliverable": "کد پروژه،خروجی‌ها ودفترچهٔاجرای R02_data_prep_escalc؛موضوع: اثرهایRR وMD/SMD باescalc وکنترل یکردیف دستی",
+    "input": "جدولخام،فرهنگستون وM09",
+    "next_action": "همان داده ودفترچه ورودی مرحلهٔبعد است؛برایگزارش نهایی،روش،مقیاس واجرایواقعی حفظ شوند.",
+    "videos": [
+      "rmeta",
+      "complex"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase4_r_track/R03_meta_metafor_models",
+    "deliverable": "کد پروژه،خروجی‌ها ودفترچهٔاجرای R03_meta_metafor_models؛موضوع: برازشهم‌تنظیمmeta/metafor وtablecomparison",
+    "input": "جدولاثرR02 وقراردادمدلM10",
+    "next_action": "همان داده ودفترچه ورودی مرحلهٔبعد است؛برایگزارش نهایی،روش،مقیاس واجرایواقعی حفظ شوند.",
+    "videos": [
+      "rmeta",
+      "complex"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase4_r_track/R04_heterogeneity_influence",
+    "deliverable": "کد پروژه،خروجی‌ها ودفترچهٔاجرای R04_heterogeneity_influence؛موضوع: Q/I²/tau²/PI،forest،influence،leave1out وآزمونalloc",
+    "input": "مدلاصلیR03 وفرضیهٔزیرگروه",
+    "next_action": "همان داده ودفترچه ورودی مرحلهٔبعد است؛برایگزارش نهایی،روش،مقیاس واجرایواقعی حفظ شوند.",
+    "videos": [
+      "rmeta",
+      "complex"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase4_r_track/R05_pubbias_metaregression",
+    "deliverable": "کد پروژه،خروجی‌ها ودفترچهٔاجرای R05_pubbias_metaregression؛موضوع: قیف/رگرسیون/trimfill/selection/Peters/permutation بادفترچهٔتفاوتروش‌ها",
+    "input": "دادهٔاثر وکدمرکزگذاریِعرض",
+    "next_action": "همان داده ودفترچه ورودی مرحلهٔبعد است؛برایگزارش نهایی،روش،مقیاس واجرایواقعی حفظ شوند.",
+    "videos": [
+      "rmeta",
+      "complex"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase4_r_track/R06_prevalence_rare_events",
+    "deliverable": "کد پروژه،خروجی‌ها ودفترچهٔاجرای R06_prevalence_rare_events؛موضوع: ممیزیصفرها ودو مدلشیوع باواحدمشترک",
+    "input": "فایل‌هایواقعیNissen وDMD درپروژه‌هایجدا",
+    "next_action": "همان داده ودفترچه ورودی مرحلهٔبعد است؛برایگزارش نهایی،روش،مقیاس واجرایواقعی حفظ شوند.",
+    "videos": [
+      "rmeta",
+      "complex"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase4_r_track/R07_multilevel_dependent",
+    "deliverable": "کد پروژه،خروجی‌ها ودفترچهٔاجرای R07_multilevel_dependent؛موضوع: Vمرتب،مدلچندمتغیره،CR2 وحساسیتنادیده‌گرفتنکوواریانس",
+    "input": "دادهٔBerkey بامشخصاتکوواریانس وM33",
+    "next_action": "همان داده ودفترچه ورودی مرحلهٔبعد است؛برایگزارش نهایی،روش،مقیاس واجرایواقعی حفظ شوند.",
+    "videos": [
+      "rmeta",
+      "complex"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase4_r_track/R08_reproducible_reporting",
+    "deliverable": "کد پروژه،خروجی‌ها ودفترچهٔاجرای R08_reproducible_reporting؛موضوع: گزارشQuartoفارسی،محیطاجرا وپوشهٔخروجیقابل بازسازی",
+    "input": "خروجی‌هایR01تاR07 ومشخصاتپروژه",
+    "next_action": "همان داده ودفترچه ورودی مرحلهٔبعد است؛برایگزارش نهایی،روش،مقیاس واجرایواقعی حفظ شوند.",
+    "videos": [
+      "rmeta",
+      "complex"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase5_umbrella_review/M18_rationale_prior",
+    "deliverable": "پروتکل نسخه‌دار آمبرلا، جدول نوع مرور و نقشهٔ بندهای PRIOR.",
+    "input": "پرسش ورزش و افسردگی، جدول مرورهای موجود و تصمیم امکان‌سنجی فاز یک.",
+    "next_action": "پروتکل را به M19 ببرید و جست‌وجوی ویژهٔ مرورها را اجرا کنید.",
+    "videos": [
+      "umbrella",
+      "presearch"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase5_umbrella_review/M19_question_search_selection",
+    "deliverable": "راهبرد بازتولیدپذیر، ثبت اجرای پایگاه‌ها و جدول انتخاب مرورها با علت حذف.",
+    "input": "پروتکل آمبرلا و پرسش محدود M18.",
+    "next_action": "فهرست نامزدها و متن کامل را به M20 ببرید؛ کیفیت را پیش از سنتز بررسی کنید.",
+    "videos": [
+      "search",
+      "screen",
+      "umbrella"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase5_umbrella_review/M20_amstar2_robis",
+    "deliverable": "دو فرم مستقل AMSTAR 2 و ROBIS با شاهد، محل شاهد و حل اختلاف.",
+    "input": "متن کامل مرور، پیوست‌ها، پروتکل و فرم انتخاب M19.",
+    "next_action": "فرم‌های کیفیت و شناسه‌های مرور را برای بررسی همپوشانی به M21 ببرید.",
+    "videos": [
+      "umbrella",
+      "rob"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase5_umbrella_review/M21_overlap_cca_groove",
+    "deliverable": "فرهنگ study_id، ماتریس عضویت، CCA کلی و زوجی و تصمیم جلوگیری از دوباره‌شماری.",
+    "input": "مرورهای منتخب، جدول مطالعات اولیهٔ هر مرور و فرم کیفیت.",
+    "next_action": "ماتریس و تصمیم رفع تکرار را به M22 منتقل کنید؛ تنها دادهٔ مستقل را بازتحلیل کنید.",
+    "videos": [
+      "umbrella",
+      "rmeta"
+    ],
+    "revision": "execution_oriented_rewrite"
+  },
+  {
+    "path": "phase5_umbrella_review/M22_credibility_metaumbrella",
+    "deliverable": "جدول اعتبار شواهد همراه بازتحلیل قابل ردیابی و محدودیت روش.",
+    "input": "جدول نتایج مرورها، کیفیت و تصمیم همپوشانی M21.",
+    "next_action": "پروندهٔ آمبرلا را نگه دارید؛ در فاز بار بیماری واحد سؤال، داده و تفسیر تغییر می‌کند.",
+    "videos": [
+      "umbrella",
+      "rmeta"
+    ],
+    "revision": "execution_oriented_rewrite"
+  }
+]
