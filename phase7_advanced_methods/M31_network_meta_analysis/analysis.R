@@ -1,0 +1,17 @@
+source('phase7_advanced_methods/shared.R');library(netmeta)
+d<-read.csv('data/phase7/senn2013.csv')
+# Repeated study label retains multi-arm dependence; never make each pair a new trial.
+m<-netmeta(TE,seTE,treat1,treat2,studlab,data=d,sm='MD',reference.group='plac',common=FALSE,random=TRUE,method.tau='REML',small.values='desirable')
+capture.output(summary(m),file=file.path(out,'M31_network_summary.txt'))
+ns<-netsplit(m);capture.output(print(ns),file=file.path(out,'M31_netsplit.txt'))
+dd<-decomp.design(m);capture.output(print(dd),file=file.path(out,'M31_design_decomposition.txt'))
+rk<-netrank(m,small.values='good');capture.output(print(rk),file=file.path(out,'M31_ranking.txt'))
+put(data.frame(treatment=rownames(m$TE.random),MD_vs_placebo=m$TE.random[,'plac'],lower=m$lower.random[,'plac'],upper=m$upper.random[,'plac'],Pscore=rk$Pscore.random),'M31_effects_ranking.csv')
+write.csv(m$TE.random,file.path(out,'M31_league_point_estimates.csv'))
+fig('M31_network.png',netgraph(m))
+fig('M31_forest.png',forest(m,reference.group='plac'))
+# Common-effect sensitivity, explicitly a different heterogeneity assumption.
+c<-netmeta(TE,seTE,treat1,treat2,studlab,data=d,sm='MD',reference.group='plac',common=TRUE,random=FALSE)
+put(data.frame(treatment=rownames(c$TE.common),MD_vs_placebo=c$TE.common[,'plac']),'M31_common_sensitivity.csv')
+saveRDS(m,file.path(out,'M31_network.rds'))
+stopifnot(length(m$trts)==10,all(is.finite(m$TE.random)),all(rk$Pscore.random>=0 & rk$Pscore.random<=1))

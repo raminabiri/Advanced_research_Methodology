@@ -1,0 +1,43 @@
+[
+  {
+    "module": "R01_r_basics",
+    "exit_code": 0,
+    "script_sha256": "dd272413af4a43d3f59a09d4f3cc6ca9d8742b866374d1f7b952a3c37771792c"
+  },
+  {
+    "module": "R02_data_prep_escalc",
+    "exit_code": 0,
+    "script_sha256": "9a9b434d279313e86421c333c48407ff83860f3fbc0ff66872a633df52298ed7"
+  },
+  {
+    "module": "R03_meta_metafor_models",
+    "exit_code": 0,
+    "script_sha256": "e21d2972529b726597c25d54e1362baad12fc901272819ef5f1f882f03cc1190"
+  },
+  {
+    "module": "R04_heterogeneity_influence",
+    "exit_code": 0,
+    "script_sha256": "50e345d4a0e4b591576078fa6ac6f9ef00ca7ce29d54314b800318fa8836444a"
+  },
+  {
+    "module": "R05_pubbias_metaregression",
+    "exit_code": 0,
+    "script_sha256": "0940850e970d872bdd503f44d5cb9764a77e2f40cac994272c4ba5f0003416b9",
+    "rechecked_after_update": "permutation and Peters additions; clean Rscript exit 0"
+  },
+  {
+    "module": "R06_prevalence_rare_events",
+    "exit_code": 0,
+    "script_sha256": "c031f758c88cb678dd0763b153c07b7a2c93ae84e687221b074da1a64e853c13"
+  },
+  {
+    "module": "R07_multilevel_dependent",
+    "exit_code": 0,
+    "script_sha256": "d541602260d898231d13871fc7f2837db13ce57199fe5bc13960580928c27657"
+  },
+  {
+    "module": "R08_reproducible_reporting",
+    "exit_code": 0,
+    "script_sha256": "0e1caa8b0e93fd8721c47a23a91af2982fa68cc62be5d83e655dc7a2ad30b1ec"
+  }
+]

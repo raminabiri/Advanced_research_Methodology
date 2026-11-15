@@ -1,0 +1,11 @@
+     P-score
+rosi  0.8972
+metf  0.7854
+piog  0.7775
+migl  0.6140
+acar  0.5188
+benf  0.4375
+vild  0.4205
+sita  0.3294
+sulf  0.2075
+plac  0.0122

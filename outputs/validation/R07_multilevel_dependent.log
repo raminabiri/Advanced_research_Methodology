@@ -1,0 +1,11 @@
+            estimate         se      zval         pval      ci.lb      ci.ub
+outcomePD  0.3534282 0.05884863  6.005716 1.904893e-09  0.2380870  0.4687694
+outcomeAL -0.3392152 0.08790514 -3.858878 1.139089e-04 -0.5115061 -0.1669243
+Alternative hypothesis: two-sided 
+     Coef. Estimate     SE Null value t-stat d.f. (Satt) p-val (Satt) Sig.
+ outcomePD    0.353 0.0582          0   6.08        3.79       0.0044   **
+ outcomeAL   -0.339 0.0892          0  -3.80        3.81       0.0208    *
+
+Registered S3 method overwritten by 'clubSandwich':
+  method    from    
+  bread.mlm sandwich

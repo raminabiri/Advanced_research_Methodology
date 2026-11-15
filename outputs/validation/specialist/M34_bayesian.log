@@ -1,0 +1,20 @@
+Loading required package: forestplot
+Loading required package: grid
+Loading required package: checkmate
+Loading required package: abind
+Loading required package: metafor
+Loading required package: Matrix
+Loading required package: metadat
+Loading required package: numDeriv
+
+Loading the 'metafor' package (version 5.2-1). For an
+introduction to the package please type: help(metafor)
+
+Loading required package: mvtnorm
+
+Attaching package: ‘bayesmeta’
+
+The following object is masked from ‘package:stats’:
+
+    convolve
+

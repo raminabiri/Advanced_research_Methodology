@@ -1,0 +1,3 @@
+release,location,year,age,sex,cause,measure,metric,val,lower,upper
+SYNTHETIC,Teaching region,2020,All ages,Both,All causes,DALYs,Number,1000,800,1200
+SYNTHETIC,Teaching region,2020,All ages,Both,Cause A,DALYs,Number,300,200,400

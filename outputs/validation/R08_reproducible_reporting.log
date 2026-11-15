@@ -1,0 +1,8 @@
+    model  k  estimate     lower     upper      tau2
+1 REML_HK 13 0.4894209 0.3300722 0.7256983 0.3132433
+
+Warning message:
+In ggplot2::geom_point(shape = 1, colour = "black", size = psize,  :
+  All aesthetics have length 1, but the data has 36 rows.
+ℹ Please consider using `annotate()` or provide this layer with data containing
+  a single row.

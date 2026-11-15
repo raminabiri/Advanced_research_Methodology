@@ -1,0 +1,18 @@
+source('phase7_advanced_methods/shared.R');library(bayesmeta)
+d<-read.csv('data/shared/bcg.csv');e<-metafor::escalc(measure='RR',ai=tpos,bi=tneg,ci=cpos,di=cneg,data=d,add=0)
+fits<-lapply(c(.25,.5,1),function(s)bayesmeta(y=e$yi,sigma=sqrt(e$vi),labels=paste(d$author,d$year),mu.prior.mean=0,mu.prior.sd=1,tau.prior=function(t)dhalfnormal(t,scale=s)))
+res<-do.call(rbind,lapply(seq_along(fits),function(i){m<-fits[[i]];q<-m$qposterior(mu.p=c(.025,.5,.975));pred<-m$qposterior(theta.p=c(.025,.975),predict=TRUE);data.frame(tau_halfnormal_scale=c(.25,.5,1)[i],RR_median=exp(q[2]),CrI_lower=exp(q[1]),CrI_upper=exp(q[3]),P_RR_lt_1=m$pposterior(mu=0),P_RR_lt_0.8=m$pposterior(mu=log(.8)),prediction_lower=exp(pred[1]),prediction_upper=exp(pred[2]))}))
+put(res,'M34_prior_sensitivity.csv')
+capture.output(fits[[2]]$summary,file=file.path(out,'M34_posterior_summary.txt'))
+set.seed(341115)
+# Prior-predictive draw (logRR scale), explicitly not observed new studies.
+mu<-rnorm(5000,0,1);tau<-abs(rnorm(5000,0,.5));theta<-rnorm(5000,mu,tau)
+put(data.frame(quantile=c(.025,.5,.975),RR=exp(quantile(theta,c(.025,.5,.975)))),'M34_prior_predictive.csv')
+# Posterior-predictive replicated y, integrating posterior uncertainty.
+post<-fits[[2]]$rposterior(2000)
+replicates<-t(vapply(seq_len(nrow(post)),function(i)rnorm(nrow(e),post[i,'mu'],sqrt(e$vi+post[i,'tau']^2)),numeric(nrow(e))))
+obs_stat<-sd(e$yi);rep_stat<-apply(replicates,1,sd)
+put(data.frame(observed_sd=obs_stat,posterior_predictive_tail=mean(rep_stat>=obs_stat)),'M34_PPC.csv')
+fig('M34_prior_sensitivity.png',{plot(res$tau_halfnormal_scale,res$RR_median,ylim=range(res$CrI_lower,res$CrI_upper),xlab='Half-normal tau prior scale',ylab='RR with 95% credible interval');arrows(res$tau_halfnormal_scale,res$CrI_lower,res$tau_halfnormal_scale,res$CrI_upper,angle=90,code=3,length=.06);abline(h=1,lty=2)})
+stopifnot(all(res$CrI_lower<res$RR_median),all(res$CrI_upper>res$RR_median),all(res$P_RR_lt_1>=0 & res$P_RR_lt_1<=1))
+saveRDS(fits[[2]],file.path(out,'M34_bayesmeta.rds'))

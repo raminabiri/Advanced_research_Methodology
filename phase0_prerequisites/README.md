@@ -4,5 +4,5 @@
 
 | کد | عنوان | پوشه | وضعیت |
 |---|---|---|---|
-| P0-M01 | یادآوری اپیدمیولوژی و آمار + آزمون ورودی | [M01_epi_stats_refresher](M01_epi_stats_refresher/) | خالی |
-| P0-M02 | نصب Zotero، Rayyan، R/RStudio و CMA | [M02_tools_setup](M02_tools_setup/) | خالی |
+| P0-M01 | یادآوری اپیدمیولوژی و آمار + آزمون ورودی | [M01_epi_stats_refresher](M01_epi_stats_refresher/) | درس، تمرین و پاسخ نوشته شده |
+| P0-M02 | نصب Zotero، Rayyan، R/RStudio و CMA | [M02_tools_setup](M02_tools_setup/) | درس، تمرین و پاسخ نوشته شده |

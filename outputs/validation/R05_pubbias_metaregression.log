@@ -1,0 +1,16 @@
+             estimate         se      tval df         pval      ci.lb
+intrcpt    -0.7223221 0.12270749 -5.886536 11 0.0001051516 -0.9923994
+latitude10 -0.2910166 0.08201542 -3.548316 11 0.0045655456 -0.4715313
+                ci.ub
+intrcpt    -0.4522447
+latitude10 -0.1105019
+
+Regression Test for Funnel Plot Asymmetry
+
+Model:     mixed-effects meta-regression model
+Predictor: standard error
+
+Test for Funnel Plot Asymmetry: t = -0.7812, df = 11, p = 0.4512
+Limit Estimate (as sei -> 0):   b = -0.5104 (CI: -1.2123, 0.1915)
+
+

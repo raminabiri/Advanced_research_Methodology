@@ -1,0 +1,29 @@
+Call:  reitsma.default(data = d, correction = 0.5, correction.control = "single")
+
+Bivariate diagnostic random-effects meta-analysis
+Estimation method: REML
+
+Fixed-effects coefficients
+                  Estimate Std. Error       z Pr(>|z|) 95%ci.lb 95%ci.ub    
+tsens.(Intercept)    1.340      0.153   8.743    0.000    1.039    1.640 ***
+tfpr.(Intercept)    -2.075      0.175 -11.831    0.000   -2.419   -1.732 ***
+sensitivity          0.792          -       -        -    0.739    0.838    
+false pos. rate      0.112          -       -        -    0.082    0.150    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+
+Variance components: between-studies Std. Dev and correlation matrix
+      Std. Dev tsens  tfpr
+tsens    0.814 1.000     .
+tfpr     0.958 0.575 1.000
+
+  logLik      AIC      BIC 
+  61.277 -112.553 -101.605 
+
+AUC:  0.907
+Partial AUC (restricted to observed FPRs and normalized):  0.847
+
+I2 estimates 
+Zhou and Dendukuri approach:  28.3 % 
+Holling sample size unadjusted approaches:  61.2 - 87.6 % 
+Holling sample size adjusted approaches:  2 - 4.3 %

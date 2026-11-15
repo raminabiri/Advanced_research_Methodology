@@ -1,0 +1,27 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Random effects model: 
+
+ comparison k prop     nma  direct  indir.    Diff     z p-value
+  acar:metf 1 0.28  0.2868  0.2000  0.3198 -0.1198 -0.21  0.8313
+  acar:plac 2 0.65 -0.8414 -0.8552 -0.8158 -0.0394 -0.08  0.9375
+  acar:sulf 1 0.53 -0.4240 -0.4000 -0.4514  0.0514  0.10  0.9209
+  metf:piog 1 0.44  0.0012 -0.1600  0.1286 -0.2886 -0.66  0.5122
+  metf:plac 4 0.56 -1.1282 -1.1841 -1.0572 -0.1269 -0.42  0.6746
+  metf:rosi 2 0.34  0.1055  0.0710  0.1230 -0.0519 -0.15  0.8786
+  metf:sulf 1 0.45 -0.7108 -0.3700 -0.9927  0.6227  1.36  0.1745
+  piog:plac 1 0.39 -1.1294 -1.3000 -1.0216 -0.2784 -0.64  0.5243
+  piog:rosi 1 0.35  0.1043  0.1000  0.1067 -0.0067 -0.01  0.9883
+  rosi:plac 6 0.76 -1.2337 -1.1795 -1.4034  0.2239  0.77  0.4392
+  rosi:sulf 1 0.44 -0.8163 -1.2000 -0.5207 -0.6793 -1.46  0.1433
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (MD) in network meta-analysis
+ direct     - Estimated treatment effect (MD) derived from direct evidence
+ indir.     - Estimated treatment effect (MD) derived from indirect evidence
+ Diff       - Difference between direct and indirect treatment estimates
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)

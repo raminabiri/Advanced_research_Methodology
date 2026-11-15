@@ -52,3 +52,27 @@
 - User requested commit and push of pending course work. This supersedes the earlier temporary publication prohibition.
 - Publication includes M09/M10 (phase 2), central CMA/R companions, prior local phase 0/1 lessons and the explicitly planned online/advanced module structure.
 - No further lesson writing is authorized by the publication-only request.
+
+## Local completion through phase 4
+- Wrote remaining M11–M17, all C01–C06 and R01–R08, each with worked examples, exercises, explained solutions and resources at the lesson end.
+- Added four real metadat datasets with provenance. Added six written online companions (Rayyan, Covidence, TERA, RevMan, Meta-Mar, GRADEpro); MetaInsight remains phase 7 planned.
+- Executed all eight R lessons in clean processes; checked package agreement, rare-event accounting, multivariate structure and CI/PI interpretation. Added and executed permutation/Peters analyses.
+- Rendered Persian Quarto HTML with official CLI 1.11.9. Kept expected scientific/package warnings documented.
+- Wrote validation reports and dashboard-ready module metadata. CMA GUI, online-account execution, independent expert review and video playback are not claimed.
+- Current work is local; no commit/push in this writing turn. Stop at phase 4; no further phase drafting.
+
+
+## ادامهٔ نگارش پس از فاز۴ — 2026-11-15
+
+با درخواست «ادامه بده»، نسخهٔ نخست فازهای۵تا۸ نوشته شد: ۵ماژول آمبرلا،۷ماژول بار بیماری،۸ماژول روش پیشرفته و۳ماژول پروژهٔ نهایی. در مجموع۵۶ماژول اصلی درس، تمرین و پاسخ دارند؛ هفتمین ابزار برخط MetaInsight نیز نوشته شد.
+
+۱۳کد اصلی تازه از Rscriptهای جداگانه اجرا شدند. داده‌های واقعی Dementia، Senn، دوز–پاسخ و ماتریس‌های Becker09 همراه منشأ افزوده شدند. سناریوهای DALY/PAF/روند/تجزیه،IPD و توان برچسب ساختگی دارند. همهٔ منابع و آموزش دیداری در پایان درس‌اند.
+
+مدل اسپلاین اولیه همگرا نشد؛ مثال نهایی با یک گره اجرا شد و آزمون درست غیرخطی بودن افزوده شد. مدل اصلی MASEM اشباع بود؛ محدودیت تفسیر و مدل محدودتر افزوده شد. فایل brms افزوده اجرا نشده است؛ رابط‌های CMA/ابزارهای برخط و دانلود GBD تأیید نشده‌اند. بازبینی علمی جداگانه همچنان انجام نشده است.
+
+این نوبت محلی است و کامیت/پوش انجام نشد. داشبورد Streamlit ساخته نشده است. مسیرهای مکمل مرور حیطه‌ای و سنتز کیفی همچنان توسعهٔ جداگانه‌اند. گزارش: `00_admin/specialist_validation.md`.
+
+
+## درخواست انتشار — 2026-11-15
+
+کاربر کامیت و پوش همهٔ تغییرات آماده تا پایان فاز۸ را درخواست کرد. بررسی ساختار، پیوندها و هش کدهای اجراشده موفق بود. انتشار بر پایهٔ شاخهٔ main مخزن raminabiri/Advanced_research_Methodology انجام می‌شود؛ تاریخچهٔ GitHub مرجع شناسهٔ کامیت است.

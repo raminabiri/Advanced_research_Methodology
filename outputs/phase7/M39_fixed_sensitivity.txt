@@ -1,0 +1,44 @@
+
+Call:
+wls(Cov = coef.tssem1FEM(tssem1.obj), aCov = vcov.tssem1FEM(tssem1.obj), 
+    n = sum(tssem1.obj$n), RAM = RAM, Amatrix = Amatrix, Smatrix = Smatrix, 
+    Fmatrix = Fmatrix, diag.constraints = diag.constraints, cor.analysis = tssem1.obj$cor.analysis, 
+    intervals.type = intervals.type, mx.algebras = mx.algebras, 
+    mxModel.Args = mxModel.Args, subset.variables = subset.variables, 
+    model.name = model.name, suppressWarnings = suppressWarnings, 
+    silent = silent, run = run)
+
+95% confidence intervals: z statistic approximation
+Coefficients:
+         Estimate Std.Error    lbound    ubound z value  Pr(>|z|)    
+Cog2Per  0.128077  0.048824  0.032384  0.223770  2.6232   0.00871 ** 
+SC2Per   0.398474  0.042687  0.314809  0.482140  9.3347 < 2.2e-16 ***
+SO2Per  -0.058540  0.048095 -0.152805  0.035725 -1.2172   0.22354    
+Cog2SC  -0.269105  0.042632 -0.352663 -0.185548 -6.3123 2.750e-10 ***
+SO2SC   -0.275046  0.042578 -0.358497 -0.191595 -6.4598 1.048e-10 ***
+var_Per  0.852084  0.028347  0.796524  0.907644 30.0585 < 2.2e-16 ***
+var_SC   0.774020  0.031008  0.713244  0.834795 24.9615 < 2.2e-16 ***
+cor      0.526319  0.029981  0.467558  0.585081 17.5551 < 2.2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Goodness-of-fit indices:
+                                            Value
+Sample size                                633.00
+Chi-square of target model                   0.00
+DF of target model                           0.00
+p value of target model                      0.00
+Number of constraints imposed on "Smatrix"   2.00
+DF manually adjusted                         0.00
+Chi-square of independence model           530.32
+DF of independence model                     6.00
+RMSEA                                        0.00
+RMSEA lower 95% CI                           0.00
+RMSEA upper 95% CI                           0.00
+SRMR                                         0.00
+TLI                                          -Inf
+CFI                                          1.00
+AIC                                          0.00
+BIC                                          0.00
+OpenMx status1: 0 ("0" or "1": The optimization is considered fine.
+Other values indicate problems.)

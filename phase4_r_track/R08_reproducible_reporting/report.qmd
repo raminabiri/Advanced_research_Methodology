@@ -1,0 +1,65 @@
+---
+title: "گزارش بازتحلیل آموزشی BCG"
+lang: fa
+dir: rtl
+format:
+  html:
+    embed-resources: true
+    toc: true
+execute:
+  echo: true
+  warning: true
+  error: false
+---
+
+این سند یک بازتحلیل آموزشی از فایل منتشرشده است؛ مرور تازه یا راهنمای درمان نیست. همهٔ ردیف‌های پروندهٔ داده الزاماً تصادفی نیستند. منابع: [مقالهٔ واقعی](https://pubmed.ncbi.nlm.nih.gov/8309034/) و [شرح داده](https://wviechtb.github.io/metadat/reference/dat.bcg.html).
+
+## داده و مدل
+
+```{r}
+source("phase4_r_track/shared.R")
+d <- bcg()
+m <- rma(yi, vi, data=d, method="REML", test="knha")
+knitr::kable(model_row(m,"REML_HK"),digits=4)
+```
+
+RR میانگین `r round(exp(as.numeric(coef(m))),3)` است. این مقدار با خطر پایه و ناهمگنی و خطر سوگیری مطالعه‌ها تفسیر می‌شود؛ معناداری به‌تنهایی قطعیت را نشان نمی‌دهد.
+
+## نمودار جنگلی
+
+```{r}
+#| fig-width: 10
+#| fig-height: 7
+forest(m,slab=paste(d$author,d$year),atransf=exp,xlab="Risk ratio (log scale)")
+```
+
+## فاصلهٔ پیش‌بینی
+
+```{r}
+p <- predict(m,transf=exp)
+knitr::kable(data.frame(RR=p$pred,CI_lower=p$ci.lb,CI_upper=p$ci.ub,
+ PI_lower=p$pi.lb,PI_upper=p$pi.ub),digits=4)
+```
+
+CI دربارهٔ میانگین اثرها و PI دربارهٔ یک اثر واقعی تازه در شرایط قابل مقایسه تحت مدل است. این دامنه‌ها، پیش‌بینی فردی نیستند.
+
+## نمونهٔ نمایش خطر سوگیری
+
+قضاوت‌های زیر **ساختگی و آموزشی** هستند و به مطالعه‌های BCG نسبت داده نمی‌شوند. این بخش تنها نمایش با robvis را آموزش می‌دهد.
+
+```{r}
+rob <- read.csv("data/phase1/rob_judgements.csv",check.names=FALSE)
+robvis::rob_traffic_light(rob,tool="ROB2")
+```
+
+## محیط اجرا
+
+```{r}
+sessionInfo()
+```
+
+## منابع و آموزش دیداری
+
+- [مستند rma.uni](https://wviechtb.github.io/metafor/reference/rma.uni.html).
+- [مستند Quarto برای R](https://quarto.org/docs/computations/r.html).
+- [آموزش آغاز Quarto و ویدیوی معرفی در صفحه](https://quarto.org/docs/get-started/hello/rstudio.html)؛ پیوند صفحهٔ آموزشی است و پخش تک‌تک فیلم‌ها تأیید نشده است.

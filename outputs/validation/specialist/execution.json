@@ -1,0 +1,107 @@
+[
+  {
+    "script": "phase5_umbrella_review/M21_overlap_cca_groove/analysis.R",
+    "exit_code": 0,
+    "script_sha256": "753a1d67183ce58d255eba0115dfc02f9c3ec3a3a611fc890238412a9eaa96b8",
+    "shared_sha256": null,
+    "log": "outputs/validation/specialist/M21_overlap_cca_groove.log",
+    "verified_utc": "2026-11-15T16:14:52.277016+00:00"
+  },
+  {
+    "script": "phase5_umbrella_review/M22_credibility_metaumbrella/analysis.R",
+    "exit_code": 0,
+    "script_sha256": "00fd01eb459042e2afa915a216b3e6b143e41d4020e0e0e7eceefd25ab855683",
+    "shared_sha256": null,
+    "log": "outputs/validation/specialist/M22_credibility_metaumbrella.log",
+    "verified_utc": "2026-11-15T16:14:54.111365+00:00"
+  },
+  {
+    "script": "phase6_burden_of_disease/M24_metrics_daly/analysis.R",
+    "exit_code": 0,
+    "script_sha256": "790870a0807b6ef85790612dda19f87421d30411f8151107eaed7ff0dc707abd",
+    "shared_sha256": null,
+    "log": "outputs/validation/specialist/M24_metrics_daly.log",
+    "verified_utc": "2026-11-15T16:14:54.203356+00:00"
+  },
+  {
+    "script": "phase6_burden_of_disease/M25_gbd_methods/analysis.R",
+    "exit_code": 0,
+    "script_sha256": "6039045a619bf8d84e09b54d0075d98ae7c4a976be256a7001e161513fb19d09",
+    "shared_sha256": null,
+    "log": "outputs/validation/specialist/M25_gbd_methods.log",
+    "verified_utc": "2026-11-15T16:14:54.297749+00:00"
+  },
+  {
+    "script": "phase6_burden_of_disease/M27_secondary_analyses/analysis.R",
+    "exit_code": 0,
+    "script_sha256": "c3888fe0aac70366881276105a5554be9f4effdac4ce4b027cb8d308da6fc7f5",
+    "shared_sha256": null,
+    "log": "outputs/validation/specialist/M27_secondary_analyses.log",
+    "verified_utc": "2026-11-15T16:14:54.426925+00:00"
+  },
+  {
+    "script": "phase7_advanced_methods/M30_diagnostic_accuracy/analysis.R",
+    "exit_code": 0,
+    "script_sha256": "6eede444ad7c40c48f4d860c568652cf444e8f654ac6b5f5837999c343a45496",
+    "shared_sha256": "39ccde636dc0b2a407f5dad4cac32bd5a79ee690c9c791038b2136b58cde4b1b",
+    "log": "outputs/validation/specialist/M30_diagnostic_accuracy.log",
+    "verified_utc": "2026-11-15T16:14:55.046671+00:00"
+  },
+  {
+    "script": "phase7_advanced_methods/M31_network_meta_analysis/analysis.R",
+    "exit_code": 0,
+    "script_sha256": "bfe237f0c309ce41d7bde7cf171fa40fcee66bf99a83e32f5e665eca6b53c9e1",
+    "shared_sha256": "39ccde636dc0b2a407f5dad4cac32bd5a79ee690c9c791038b2136b58cde4b1b",
+    "log": "outputs/validation/specialist/M31_network_meta_analysis.log",
+    "verified_utc": "2026-11-15T16:15:03.324207+00:00"
+  },
+  {
+    "script": "phase7_advanced_methods/M32_dose_response/analysis.R",
+    "exit_code": 0,
+    "script_sha256": "333d782fd7a28cd56f05c0d71e6a2728f6553cec48cbff33aa70fc1693cc710f",
+    "shared_sha256": "39ccde636dc0b2a407f5dad4cac32bd5a79ee690c9c791038b2136b58cde4b1b",
+    "log": "outputs/validation/specialist/M32_dose_response.log",
+    "verified_utc": "2026-11-15T16:15:03.528356+00:00",
+    "rechecked_after_update": "2026-11-15; fresh Rscript completed with exit 0; Wald contrast exported"
+  },
+  {
+    "script": "phase7_advanced_methods/M33_multilevel_multivariate/analysis.R",
+    "exit_code": 0,
+    "script_sha256": "7237944521ead28367c75366aa07dc88c7a404b8eb45264e8c50e040617455dd",
+    "shared_sha256": "39ccde636dc0b2a407f5dad4cac32bd5a79ee690c9c791038b2136b58cde4b1b",
+    "log": "outputs/validation/specialist/M33_multilevel_multivariate.log",
+    "verified_utc": "2026-11-15T16:15:04.088392+00:00"
+  },
+  {
+    "script": "phase7_advanced_methods/M34_bayesian/analysis.R",
+    "exit_code": 0,
+    "script_sha256": "445f55dc1aac7ea9025e66a3ad87de0109cf709179122b17f04f2c5e36f56817",
+    "shared_sha256": "39ccde636dc0b2a407f5dad4cac32bd5a79ee690c9c791038b2136b58cde4b1b",
+    "log": "outputs/validation/specialist/M34_bayesian.log",
+    "verified_utc": "2026-11-15T16:15:52.781088+00:00"
+  },
+  {
+    "script": "phase7_advanced_methods/M35_ipd_living_rapid_automation/analysis.R",
+    "exit_code": 0,
+    "script_sha256": "10c70d9ff7236f58c2145d24169f4550ba12f0a5b3e8c698945aae8f6819f690",
+    "shared_sha256": "39ccde636dc0b2a407f5dad4cac32bd5a79ee690c9c791038b2136b58cde4b1b",
+    "log": "outputs/validation/specialist/M35_ipd_living_rapid_automation.log",
+    "verified_utc": "2026-11-15T16:15:53.422501+00:00"
+  },
+  {
+    "script": "phase7_advanced_methods/M39_masem/analysis.R",
+    "exit_code": 0,
+    "script_sha256": "bdc8769d55df114266668e80c3a14cf79505283f9a7676658e19ffe268727fed",
+    "shared_sha256": "39ccde636dc0b2a407f5dad4cac32bd5a79ee690c9c791038b2136b58cde4b1b",
+    "log": "outputs/validation/specialist/M39_masem.log",
+    "verified_utc": "2026-11-15T16:15:54.804675+00:00"
+  },
+  {
+    "script": "phase7_advanced_methods/M40_power_analysis/analysis.R",
+    "exit_code": 0,
+    "script_sha256": "e297879eb0aae4e4831ba9236b6d2f9c78bc03f47b6d56a9931fb8f8e3491133",
+    "shared_sha256": "39ccde636dc0b2a407f5dad4cac32bd5a79ee690c9c791038b2136b58cde4b1b",
+    "log": "outputs/validation/specialist/M40_power_analysis.log",
+    "verified_utc": "2026-11-15T16:16:04.660622+00:00"
+  }
+]

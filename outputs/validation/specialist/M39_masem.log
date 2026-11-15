@@ -1,0 +1,8 @@
+Loading required package: OpenMx
+To take full advantage of multiple cores, use:
+  mxOption(key='Number of Threads', value=parallel::detectCores()) #now
+  Sys.setenv(OMP_NUM_THREADS=parallel::detectCores()) #before library(OpenMx)
+"SLSQP" is set as the default optimizer in OpenMx.
+mxOption(NULL, "Gradient algorithm") is set at "central".
+mxOption(NULL, "Optimality tolerance") is set at "6.3e-14".
+mxOption(NULL, "Gradient iterations") is set at "2".

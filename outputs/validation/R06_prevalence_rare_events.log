@@ -1,0 +1,10 @@
+             model  k estimate    lower    upper tau2
+1 MH_no_correction 38 1.426918 1.029369 1.978002    0
+2             Peto 38 1.428306 1.030938 1.978835    0
+             model  k per100000    lower    upper       tau2
+1 logit_IV_REML_HK 26  22.45600 20.84850 24.18743 0.01297722
+2 binomial_GLMM_ML 26  22.23422 20.60565 23.99148 0.01256599
+
+Warning messages:
+1: Some 'yi' and/or 'vi' values equal to +-Inf. Recoded to NAs. 
+2: Some yi/vi values are NA. 

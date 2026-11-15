@@ -1,0 +1,4 @@
+            model  k  estimate     lower     upper      tau2
+1 metafor_REML_HK 13 0.4894209 0.3300722 0.7256983 0.3132433
+2    meta_REML_HK 13 0.4894209 0.3300722 0.7256983 0.3132433
+

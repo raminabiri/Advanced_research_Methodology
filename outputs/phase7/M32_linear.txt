@@ -1,0 +1,27 @@
+Call:  dosresmeta(formula = logrr ~ dose, id = id, type = type, cases = cases, 
+    n = n, data = d, se = se, method = "reml")
+
+Two-stage random-effects meta-analysis
+Estimation method: REML
+Covariance approximation: Greenland & Longnecker
+
+Chi2 model: X2 = 0.5495 (df = 1), p-value = 0.4585
+
+Fixed-effects coefficients
+             Estimate  Std. Error        z  Pr(>|z|)  95%ci.lb  95%ci.ub   
+(Intercept)   -0.0044      0.0059  -0.7413    0.4585   -0.0159    0.0072   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+
+Between-study random-effects (co)variance components
+  Std. Dev
+    0.0100
+
+Univariate Cochran Q-test for residual heterogeneity:
+Q = 14.1464 (df = 5), p-value = 0.0147
+I-square statistic = 64.7%
+
+6 studies, 6 values, 1 fixed and 1 random-effects parameters
+  logLik       AIC       BIC  
+ 14.0341  -24.0683  -24.8494  
+

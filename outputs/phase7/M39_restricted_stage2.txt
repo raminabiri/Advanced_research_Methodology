@@ -1,0 +1,42 @@
+
+Call:
+wls(Cov = pooledS, aCov = aCov, n = tssem1.obj$total.n, RAM = RAM, 
+    Amatrix = Amatrix, Smatrix = Smatrix, Fmatrix = Fmatrix, 
+    diag.constraints = diag.constraints, cor.analysis = cor.analysis, 
+    intervals.type = intervals.type, mx.algebras = mx.algebras, 
+    mxModel.Args = mxModel.Args, subset.variables = subset.variables, 
+    model.name = model.name, suppressWarnings = suppressWarnings, 
+    silent = silent, run = run)
+
+95% confidence intervals: z statistic approximation
+Coefficients:
+         Estimate Std.Error    lbound    ubound z value  Pr(>|z|)    
+SC2Per   0.291100  0.074749  0.144595  0.437605  3.8944 9.845e-05 ***
+Cog2SC  -0.268552  0.061691 -0.389465 -0.147640 -4.3532 1.342e-05 ***
+SO2SC   -0.278915  0.062039 -0.400509 -0.157321 -4.4958 6.930e-06 ***
+var_Per  0.915261  0.043519  0.829966  1.000556 21.0314 < 2.2e-16 ***
+var_SC   0.771674  0.038579  0.696060  0.847289 20.0023 < 2.2e-16 ***
+cor      0.523418  0.030701  0.463244  0.583592 17.0487 < 2.2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Goodness-of-fit indices:
+                                              Value
+Sample size                                633.0000
+Chi-square of target model                   0.5614
+DF of target model                           2.0000
+p value of target model                      0.7553
+Number of constraints imposed on "Smatrix"   2.0000
+DF manually adjusted                         0.0000
+Chi-square of independence model           350.8442
+DF of independence model                     6.0000
+RMSEA                                        0.0000
+RMSEA lower 95% CI                           0.0000
+RMSEA upper 95% CI                           0.0537
+SRMR                                         0.0311
+TLI                                          1.0125
+CFI                                          1.0000
+AIC                                         -3.4386
+BIC                                        -12.3396
+OpenMx status1: 0 ("0" or "1": The optimization is considered fine.
+Other values indicate problems.)

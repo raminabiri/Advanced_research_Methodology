@@ -1,0 +1,13 @@
+
+   pred  ci.lb  ci.ub  pi.lb  pi.ub 
+ 0.4894 0.3301 0.7257 0.1359 1.7629 
+
+                           estimate        se       tval df      pval     ci.lb
+intrcpt                 -0.51795581 0.4219470 -1.2275376 10 0.2477325 -1.458112
+factor(alloc)random     -0.44781822 0.4933185 -0.9077669 10 0.3853550 -1.547000
+factor(alloc)systematic  0.08903815 0.5356036  0.1662389 10 0.8712820 -1.104361
+                            ci.ub
+intrcpt                 0.4222007
+factor(alloc)random     0.6513640
+factor(alloc)systematic 1.2824374
+

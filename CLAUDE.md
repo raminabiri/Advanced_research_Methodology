@@ -21,3 +21,11 @@
 - Current scope: user requested exactly two additional modules, M09 and M10, then a stop. Both are now written with central-track companions. Do not continue to M11 or commit/push unless the user later authorizes it.
 
 - Latest user instruction authorizes committing and pushing the pending course changes. Publish the written M09/M10 and their companions together with earlier pending foundation content and planned online-tool modules; do not resume writing additional modules.
+
+- Latest request authorizes completing all remaining content through phase 4 (M11–M17, C01–C06, R01–R08). Announce phase completion and continue through phase 4, then stop. Do not extend writing to phase 5 or beyond.
+
+- Completed current writing scope locally through phase 4, plus six online companions belonging to these stages. Stop; do not draft phase 5. No commit/push was performed during this writing request. Status and execution evidence are in phase4_r_track/VALIDATION.md and 00_admin/course_manifest.json.
+
+- Latest user instruction "ادامه بده" authorized continuing writing through the remaining phases. First-edition modules in phases 5–8 and MetaInsight are now written locally. All 13 new main analysis.R examples passed; provenance is in outputs/validation/specialist/execution.json. brms_extension.R is authored but unexecuted. No commit/push or Streamlit build occurred in this continuation. Preserve honest execution and assessment limits. The earlier stop-before-phase-5 restriction is superseded.
+
+- Latest user explicitly requested commit and push of all pending course changes through phase 8. Publication is authorized to raminabiri/Advanced_research_Methodology main; preserve the existing remote tree and use an expected-head lease.

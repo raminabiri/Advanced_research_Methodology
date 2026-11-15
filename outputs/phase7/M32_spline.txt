@@ -1,0 +1,39 @@
+Call:  dosresmeta(formula = logrr ~ splines::ns(dose, knots = knots, 
+    Boundary.knots = bound), id = id, type = type, cases = cases, 
+    n = n, data = d, se = se, method = "reml", proc = "1stage", 
+    control = list(maxiter = 1000))
+
+One-stage random-effects meta-analysis
+Estimation method: REML
+Covariance approximation: Greenland & Longnecker
+
+Chi2 model: X2 = 7.2926 (df = 2), p-value = 0.0261
+
+Fixed-effects coefficients
+                                                           Estimate  Std. Error
+splines::ns(dose, knots = knots, Boundary.knots = bound)1   -0.0315      0.6655
+splines::ns(dose, knots = knots, Boundary.knots = bound)2    1.7738      1.6132
+                                                                 z  Pr(>|z|)
+splines::ns(dose, knots = knots, Boundary.knots = bound)1  -0.0474    0.9622
+splines::ns(dose, knots = knots, Boundary.knots = bound)2   1.0996    0.2715
+                                                           95%ci.lb  95%ci.ub
+splines::ns(dose, knots = knots, Boundary.knots = bound)1   -1.3360    1.2729
+splines::ns(dose, knots = knots, Boundary.knots = bound)2   -1.3880    4.9356
+                                                            
+splines::ns(dose, knots = knots, Boundary.knots = bound)1   
+splines::ns(dose, knots = knots, Boundary.knots = bound)2   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+
+Between-study random-effects (co)variance components
+                                                           Std. Dev
+splines::ns(dose, knots = knots, Boundary.knots = bound)1    1.0945
+splines::ns(dose, knots = knots, Boundary.knots = bound)2    2.7123
+                                                                                                                Corr
+splines::ns(dose, knots = knots, Boundary.knots = bound)1  splines::ns(dose, knots = knots, Boundary.knots = bound)1
+splines::ns(dose, knots = knots, Boundary.knots = bound)2                                                     0.9436
+
+6 studies, 19 values, 2 fixed and 3 random-effects parameters
+ logLik      AIC      BIC  
+-9.4801  28.9603  33.1263  
+

@@ -1,0 +1,2 @@
+"Factor","Criteria","Class","measure","value","value_CI","eG","eG_CI","eOR","eOR_CI","p_value","n_studies","n_cases","n_controls","PI_eG","PI_eOR","PI_sign","I2","egger_p","egger_sign","ESB_p","ESB_sign","largest_CI_eG","largest_CI_eOR","largest_sign"
+"BCG","Ioannidis","III","RR",0.489,"[0.344, 0.696]",-0.394,"[-0.588, -0.2]",0.489,"[0.344, 0.696]","7.05e-05",13,2575,354772,"[-1.1, 0.312]","[0.136, 1.762]","null",92.117,"1.89e-01","ns","3.74e-09","sig.","[-0.061, 0.075]","[0.895, 1.145]","null"

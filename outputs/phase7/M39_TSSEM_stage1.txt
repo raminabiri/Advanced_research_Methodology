@@ -1,0 +1,58 @@
+
+Call:
+meta(y = ES, v = acovR, RE.constraints = Diag(paste0(RE.startvalues, 
+    "*Tau2_", 1:no.es, "_", 1:no.es)), RE.lbound = RE.lbound, 
+    I2 = I2, model.name = model.name, suppressWarnings = TRUE, 
+    silent = silent, run = run)
+
+95% confidence intervals: z statistic approximation (robust=FALSE)
+Coefficients:
+              Estimate   Std.Error      lbound      ubound z value  Pr(>|z|)
+Intercept1 -4.5985e-02  1.0803e-01 -2.5772e-01  1.6575e-01 -0.4257 0.6703491
+Intercept2 -1.3449e-01  7.7761e-02 -2.8690e-01  1.7919e-02 -1.7295 0.0837144
+Intercept3  2.9835e-01  7.9853e-02  1.4184e-01  4.5486e-01  3.7362 0.0001868
+Intercept4  5.2312e-01  3.0710e-02  4.6293e-01  5.8331e-01 17.0342 < 2.2e-16
+Intercept5 -4.1586e-01  4.5269e-02 -5.0459e-01 -3.2713e-01 -9.1863 < 2.2e-16
+Intercept6 -4.1889e-01  4.5571e-02 -5.0821e-01 -3.2957e-01 -9.1921 < 2.2e-16
+Tau2_1_1    9.3724e-02  5.0360e-02 -4.9789e-03  1.9243e-01  1.8611 0.0627305
+Tau2_2_2    3.3257e-02  2.3529e-02 -1.2858e-02  7.9373e-02  1.4135 0.1575181
+Tau2_3_3    3.4750e-02  2.2714e-02 -9.7680e-03  7.9268e-02  1.5299 0.1260372
+Tau2_4_4    1.0000e-10  4.7827e-03 -9.3739e-03  9.3739e-03  0.0000 1.0000000
+Tau2_5_5    5.4434e-03  7.2504e-03 -8.7671e-03  1.9654e-02  0.7508 0.4527892
+Tau2_6_6    5.5423e-03  6.5948e-03 -7.3834e-03  1.8468e-02  0.8404 0.4006855
+              
+Intercept1    
+Intercept2 .  
+Intercept3 ***
+Intercept4 ***
+Intercept5 ***
+Intercept6 ***
+Tau2_1_1   .  
+Tau2_2_2      
+Tau2_3_3      
+Tau2_4_4      
+Tau2_5_5      
+Tau2_6_6      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Q statistic on the homogeneity of effect sizes: 181.3933
+Degrees of freedom of the Q statistic: 46
+P value of the Q statistic: 0
+
+Heterogeneity indices (based on the estimated Tau2):
+                             Estimate
+Intercept1: I2 (Q statistic)   0.8504
+Intercept2: I2 (Q statistic)   0.6734
+Intercept3: I2 (Q statistic)   0.7223
+Intercept4: I2 (Q statistic)   0.0000
+Intercept5: I2 (Q statistic)   0.3232
+Intercept6: I2 (Q statistic)   0.3265
+
+Number of studies (or clusters): 10
+Number of observed statistics: 52
+Number of estimated parameters: 12
+Degrees of freedom: 40
+-2 log likelihood: -30.87305 
+OpenMx status1: 0 ("0" or "1": The optimization is considered fine.
+Other values may indicate problems.)

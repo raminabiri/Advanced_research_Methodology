@@ -15,11 +15,11 @@
 | P1-M01 | انواع مرور و جایگاه مرور نظام‌مند | [M01_review_types](M01_review_types/) | — | نوشته شده |
 | P1-M02 | تدوین پرسش پژوهش | [M02_research_question](M02_research_question/) | — | نوشته شده |
 | P1-M03 | پروتکل و ثبت آن | [M03_protocol_registration](M03_protocol_registration/) | — | نوشته شده؛ خودآموز |
-| P1-M04 | جست‌وجوی نظام‌مند | [M04_systematic_search](M04_systematic_search/) | `rentrez` | خالی |
-| P1-M05 | مدیریت منابع و غربالگری | [M05_screening](M05_screening/) | `irr`، `PRISMA2020`، `synthesisr` | خالی |
-| P1-M06 | استخراج داده | [M06_data_extraction](M06_data_extraction/) | `estmeansd` | خالی |
-| P1-M07 | ارزیابی خطر سوگیری | [M07_risk_of_bias](M07_risk_of_bias/) | `robvis` | خالی |
-| P1-M08 | گزارش‌دهی، نقد و اخلاق | [M08_reporting_appraisal](M08_reporting_appraisal/) | — | خالی |
+| P1-M04 | جست‌وجوی نظام‌مند | [M04_systematic_search](M04_systematic_search/) | `rentrez` | درس، تمرین و پاسخ نوشته شده |
+| P1-M05 | مدیریت منابع و غربالگری | [M05_screening](M05_screening/) | `irr`، `PRISMA2020`، `synthesisr` | درس، تمرین و پاسخ نوشته شده |
+| P1-M06 | استخراج داده | [M06_data_extraction](M06_data_extraction/) | `estmeansd` | درس، تمرین و پاسخ نوشته شده |
+| P1-M07 | ارزیابی خطر سوگیری | [M07_risk_of_bias](M07_risk_of_bias/) | `robvis` | درس، تمرین و پاسخ نوشته شده |
+| P1-M08 | گزارش‌دهی، نقد و اخلاق | [M08_reporting_appraisal](M08_reporting_appraisal/) | — | درس، تمرین و پاسخ نوشته شده |
 
 ## مسیر کار دانشجو در این فاز
 

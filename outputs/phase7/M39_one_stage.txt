@@ -1,0 +1,50 @@
+Summary of osmasem 
+ 
+free parameters:
+      name  matrix             row             col     Estimate    Std.Error A
+1  Cog2Per      A0     Performance       Cognitive   0.12085788 1.615968e-01  
+2   Cog2SC      A0 Self_confidence       Cognitive  -0.27084816 6.164876e-02  
+3   SO2Per      A0     Performance         Somatic  -0.06268327 1.269752e-01  
+4    SO2SC      A0 Self_confidence         Somatic  -0.27720546 6.196641e-02  
+5   SC2Per      A0     Performance Self_confidence   0.32235003 1.092957e-01  
+6      cor      S0         Somatic       Cognitive   0.52311578 2.994481e-02  
+7   Tau1_1 vecTau1               1               1  -2.36739815 5.371038e-01  
+8   Tau1_2 vecTau1               2               1  -3.40347553 7.074303e-01  
+9   Tau1_3 vecTau1               3               1  -3.35957035 6.535957e-01  
+10  Tau1_4 vecTau1               4               1 -32.27444963 2.707377e+04 !
+11  Tau1_5 vecTau1               5               1  -5.21334903 1.278649e+00  
+12  Tau1_6 vecTau1               6               1  -5.19534709 1.142166e+00  
+        z value     Pr(>|z|)
+1   0.747897591 4.545219e-01
+2  -4.393407968 1.115874e-05
+3  -0.493665575 6.215424e-01
+4  -4.473479210 7.695704e-06
+5   2.949337644 3.184558e-03
+6  17.469330942 0.000000e+00
+7  -4.407710410 1.044691e-05
+8  -4.811040388 1.501467e-06
+9  -5.140135579 2.745403e-07
+10 -0.001192093 9.990488e-01
+11 -4.077233021 4.557481e-05
+12 -4.548677991 5.398397e-06
+
+To obtain confidence intervals re-run with intervals=TRUE
+
+Model Statistics: 
+               |  Parameters  |  Degrees of Freedom  |  Fit (-2lnL units)
+       Model:             12                     40             -30.87305
+   Saturated:             27                     25                    NA
+Independence:             12                     40                    NA
+Number of observations/statistics: 633/52
+
+Information Criteria: 
+      |  df Penalty  |  Parameters Penalty  |  Sample-Size Adjusted
+AIC:      -110.8731               -6.87305                -6.369825
+BIC:      -288.8919               46.53259                 8.433804
+To get additional fit indices, see help(mxRefModels)
+timestamp: 2026-11-15 16:15:54 
+Wall clock time: 0.0642674 secs 
+optimizer:  SLSQP 
+OpenMx version number: 2.22.11 
+Need help?  See help(mxSummary) 
+

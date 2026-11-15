@@ -1,0 +1,10 @@
+source("phase4_r_track/shared.R")
+d<-bcg();m<-rma(yi,vi,data=d,method="REML",test="knha")
+export(model_row(m,"REML_HK"),"R08_report_estimate.csv")
+# Existing judgments are synthetic teaching data, not newly judged BCG studies.
+rob<-read.csv("data/phase1/rob_judgements.csv",check.names=FALSE)
+if(!requireNamespace("robvis",quietly=TRUE))stop("Install robvis.")
+p<-robvis::rob_traffic_light(rob,tool="ROB2")
+ggplot2::ggsave(file.path(outdir,"R08_risk_of_bias.png"),plot=p,width=10,height=5,dpi=150)
+writeLines(capture.output(sessionInfo()),file.path(outdir,"sessionInfo.txt"))
+print(model_row(m,"REML_HK"))

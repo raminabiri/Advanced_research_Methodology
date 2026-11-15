@@ -1,0 +1,4 @@
+Alternative hypothesis: two-sided 
+     Coef. Estimate     SE Null value t-stat d.f. (Satt) p-val (Satt) Sig.
+ outcomePD    0.353 0.0582          0   6.08        3.79       0.0044   **
+ outcomeAL   -0.339 0.0892          0  -3.80        3.81       0.0208    *
